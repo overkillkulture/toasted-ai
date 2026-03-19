@@ -1,0 +1,2 @@
+"""TOASTED AI - MASSIVE AGENT SWARM SYSTEM"""
+__version__ = "1.0.0"

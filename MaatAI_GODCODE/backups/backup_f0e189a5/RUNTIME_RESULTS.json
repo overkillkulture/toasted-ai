@@ -1,0 +1,32 @@
+{
+  "duration_seconds": 0.000959,
+  "cycles": 300,
+  "avg_maat_score": 0.8470225160160554,
+  "agents_spawned": 10,
+  "agent_breakdown": {
+    "ImmuneDefender": 5,
+    "CodeExecutor": 1,
+    "NeuralProcessor": 1,
+    "RogueInterceptor": 3
+  },
+  "threats_detected": 8,
+  "threat_breakdown": {
+    "code_injection": 4,
+    "privilege_escalation": 4
+  },
+  "code_generated": 6,
+  "code_breakdown": {
+    "function": 1,
+    "api_endpoint": 3,
+    "class": 2
+  },
+  "learning_events": 15,
+  "knowledge_patterns": 42,
+  "defense_checks": 30,
+  "final_state": {
+    "maat_alignment": 1.0,
+    "agent_count": 10,
+    "knowledge_base_size": 42,
+    "cycles": 300
+  }
+}

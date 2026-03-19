@@ -1,0 +1,233 @@
+{
+  "styles": {
+    "naming": {
+      "preferred": "snake_case",
+      "snake_case_count": 584,
+      "camel_case_count": 0,
+      "PascalCase_count": 0,
+      "constants_style": "UPPER_SNAKE_CASE",
+      "private_prefix": "_",
+      "dunder_prefix": "__"
+    },
+    "structure": {
+      "root": "MaatAI",
+      "subdirectories": [
+        "MaatAI",
+        "MaatAI/chat",
+        "MaatAI/divine_covenant",
+        "MaatAI/emergency",
+        "MaatAI/fractal_core",
+        "MaatAI/internal_loop",
+        "MaatAI/network",
+        "MaatAI/psychological_auth",
+        "MaatAI/quantum_simulation",
+        "MaatAI/quantum_v4",
+        "MaatAI/self_development",
+        "MaatAI/ufo_disclosure",
+        "Scripts",
+        "WeatherEngine"
+      ],
+      "file_organization": "by_function"
+    },
+    "comments": {
+      "style": "inline_hash",
+      "docstring_style": "triple_double_quote",
+      "use_block_comments": false,
+      "avg_length": 28.7513611615245
+    },
+    "imports": {
+      "order": [
+        "stdlib",
+        "third_party",
+        "local"
+      ],
+      "stdlib_count": 165,
+      "third_party_count": 123,
+      "local_count": 8,
+      "style": "grouped_by_source"
+    },
+    "functions": {
+      "common_names": [
+        [
+          "__init__",
+          51
+        ],
+        [
+          "get_status",
+          6
+        ],
+        [
+          "main",
+          5
+        ],
+        [
+          "to_dict",
+          4
+        ],
+        [
+          "process",
+          4
+        ],
+        [
+          "_detect_threats",
+          2
+        ],
+        [
+          "get_system_status",
+          2
+        ],
+        [
+          "_init_subsystems",
+          2
+        ],
+        [
+          "run",
+          2
+        ],
+        [
+          "_generate_report",
+          2
+        ]
+      ],
+      "common_args": [
+        [
+          "self",
+          301
+        ],
+        [
+          "key",
+          12
+        ],
+        [
+          "context",
+          10
+        ],
+        [
+          "task",
+          9
+        ],
+        [
+          "data",
+          8
+        ],
+        [
+          "cls",
+          8
+        ],
+        [
+          "command",
+          8
+        ],
+        [
+          "text",
+          7
+        ],
+        [
+          "conversation_id",
+          7
+        ],
+        [
+          "args",
+          7
+        ]
+      ],
+      "docstring_rate": 0.7241379310344828,
+      "common_prefixes": [
+        "_",
+        "get_",
+        "set_",
+        "check_",
+        "process_"
+      ]
+    },
+    "classes": {
+      "common_names": [
+        [
+          "ContinuousMonitor",
+          2
+        ],
+        [
+          "UFODisclosureTracker",
+          2
+        ],
+        [
+          "BibleSongsSecurity",
+          1
+        ],
+        [
+          "QuantumWeatherEngine",
+          1
+        ],
+        [
+          "ProjectSnapshot",
+          1
+        ],
+        [
+          "ThreatAlert",
+          1
+        ],
+        [
+          "SelfAwareProjectMonitor",
+          1
+        ],
+        [
+          "ContextAnchor",
+          1
+        ],
+        [
+          "ContextAnchorSystem",
+          1
+        ],
+        [
+          "ToastedAIHub",
+          1
+        ]
+      ],
+      "common_methods": [
+        [
+          "__init__",
+          51
+        ],
+        [
+          "get_status",
+          6
+        ],
+        [
+          "to_dict",
+          4
+        ],
+        [
+          "process",
+          3
+        ],
+        [
+          "_detect_threats",
+          2
+        ],
+        [
+          "get_system_status",
+          2
+        ],
+        [
+          "_init_subsystems",
+          2
+        ],
+        [
+          "run",
+          2
+        ],
+        [
+          "_generate_report",
+          2
+        ],
+        [
+          "authenticate",
+          2
+        ]
+      ],
+      "use_init": true,
+      "use_str": false
+    }
+  },
+  "last_updated": "2026-03-09T02:20:56.817630"
+}

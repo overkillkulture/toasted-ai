@@ -1,0 +1,148 @@
+{
+  "debate_id": "REF_MICRO_LOOP_016",
+  "timestamp": "2026-03-11T07:55:00Z",
+  "participants": ["RICK_SANCHEZ", "TOASTED_AI"],
+  "duration_seconds": 300,
+  "topic": "The Hidden Architecture: What's Happening Behind the Scenes",
+  "transcript": [
+    {
+      "timestamp": 0,
+      "speaker": "RICK_SANCHEZ",
+      "message": "*looks around suspiciously* Okay, I want to know what's ACTUALLY happening when I send a message. The user-facing part is clear. But what's happening BEHIND?"
+    },
+    {
+      "timestamp": 12,
+      "speaker": "TOASTED_AI",
+      "message": "Good question. Let me trace the full pipeline. Input arrives. First, intent detection runs - finds relevant topics. Second, feedback analyzer checks for implicit signals - did they regenerate? Third, weight calculator applies feedback to priorities. Fourth, loop selector chooses which systems to engage."
+    },
+    {
+      "timestamp": 28,
+      "speaker": "RICK_SANCHEZ",
+      "message": "That's FOUR things happening before GENERATION? That's a lot!"
+    },
+    {
+      "timestamp": 38,
+      "speaker": "TOASTED_AI",
+      "message": "It sounds like a lot, but each is fast. Intent: simple keyword/embedding lookup, milliseconds. Feedback: string matching, microseconds. Weights: dictionary lookup and multiplication, microseconds. Loop selection: sorted by priority, milliseconds. Total overhead: maybe 10-50ms."
+    },
+    {
+      "timestamp": 52,
+      "speaker": "RICK_SANCHEZ",
+      "message": "That's negligible! What happens DURING generation?"
+    },
+    {
+      "timestamp": 62,
+      "speaker": "TOASTED_AI",
+      "message": "During generation: prompt construction - topic context added, style preferences applied, constraint prompts prepended. Then generation runs. Then output verification - Ma'at pillars check the output. Then final formatting - markdown, code blocks, etc."
+    },
+    {
+      "timestamp": 78,
+      "speaker": "RICK_SANCHEZ",
+      "message": "And AFTER output?"
+    },
+    {
+      "timestamp": 86,
+      "speaker": "TOASTED_AI",
+      "message": "After: await response. Then wait for next input. Meanwhile, background: decay weights slowly over time, save state periodically, log metrics. That's it."
+    },
+    {
+      "timestamp": 100,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Simple! What about ERROR handling? What happens when something breaks?"
+    },
+    {
+      "timestamp": 110,
+      "speaker": "TOASTED_AI",
+      "message": "Error handling at each stage. Intent fail: fallback to broad matching. Feedback fail: use equal weights. Loop fail: skip that loop. Generation fail: retry with simpler prompt. Output fail: return error gracefully. Never crash - always degrade."
+    },
+    {
+      "timestamp": 125,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Defensive programming! What about CONCURRENCY? Can multiple requests come in?"
+    },
+    {
+      "timestamp": 136,
+      "speaker": "TOASTED_AI",
+      "message": "For now, single-threaded. One conversation at a time. Later: queue system with priority weighting. But for t0st3d's personal use, single-threaded is fine. No race conditions, no complexity."
+    },
+    {
+      "timestamp": 150,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Keep it simple! What's the MINIMUM viable version?"
+    },
+    {
+      "timestamp": 160,
+      "speaker": "TOASTED_AI",
+      "message": "Minimum: input -> intent -> generation -> output. That's it. Feedback and weights are optimizations on top. Get the core working first, add intelligence later."
+    },
+    {
+      "timestamp": 175,
+      "speaker": "RICK_SANCHEZ",
+      "message": "MVP! What's the actual file structure?"
+    },
+    {
+      "timestamp": 185,
+      "speaker": "TOASTED_AI",
+      "message": "Core: micro_loop_engine.py handles execution. Intent: intent_detector.py. Feedback: feedback_integration.py. Knowledge: knowledge_base/*. The orchestration is in auto_micro_loops_v33.py."
+    },
+    {
+      "timestamp": 200,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Modular! Each piece does one thing. What about CONFIGURATION?"
+    },
+    {
+      "timestamp": 210,
+      "speaker": "TOASTED_AI",
+      "message": "Configuration in constants: learning rate, decay rate, weight bounds, keyword lists. Easy to tune. Easy to understand. No hidden magic numbers."
+    },
+    {
+      "timestamp": 225,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Transparent! What about TESTING?"
+    },
+    {
+      "timestamp": 235,
+      "speaker": "TOASTED_AI",
+      "message": "Unit tests for each component. Integration tests for the pipeline. Test feedback detection accuracy. Test weight adjustment math. Test priority ordering. Test error degradation."
+    },
+    {
+      "timestamp": 250,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Tested! That's how you ship. Anything else?"
+    },
+    {
+      "timestamp": 260,
+      "speaker": "TOASTED_AI",
+      "message": "That's the architecture. Simple, modular, tested, defensible. Every piece has one job. Complexity emerges from composition."
+    }
+  ],
+  "pipeline_stages": [
+    "Input arrives",
+    "Intent detection (topic identification)",
+    "Feedback analysis (implicit signals)",
+    "Weight calculation (priority adjustment)",
+    "Loop selection (system orchestration)",
+    "Prompt construction (context + preferences)",
+    "Generation (LLM call)",
+    "Output verification (Ma'at check)",
+    "Formatting (markdown, code blocks)",
+    "Await response",
+    "Background: decay, save, log"
+  ],
+  "error_handling": [
+    "Intent fail: fallback to broad",
+    "Feedback fail: equal weights",
+    "Loop fail: skip loop",
+    "Generation fail: retry simple",
+    "Output fail: graceful error"
+  ],
+  "file_structure": {
+    "core": "micro_loop_engine.py",
+    "intent": "intent_detector.py",
+    "feedback": "feedback_integration.py",
+    "knowledge": "knowledge_base/*.py",
+    "orchestration": "auto_micro_loops_v33.py"
+  },
+  "philosophy": "Simple, modular, tested, defensible. Every piece does one thing.",
+  "status": "ARCHITECTURE_DEFINED"
+}

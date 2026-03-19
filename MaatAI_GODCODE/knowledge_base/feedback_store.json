@@ -1,0 +1,117 @@
+{
+  "feedback_history": [
+    {
+      "signal_type": "explicit",
+      "value": 0.8,
+      "context": {
+        "topic": "python",
+        "response_type": "code"
+      },
+      "timestamp": 1773230815.8538184
+    },
+    {
+      "signal_type": "explicit",
+      "value": 0.6,
+      "context": {
+        "topic": "philosophy",
+        "response_type": "explanation"
+      },
+      "timestamp": 1773230815.8546445
+    }
+  ],
+  "preferences": {
+    "detail_level": {
+      "weight": 0.5,
+      "confidence": 0.0,
+      "samples": 0,
+      "history": []
+    },
+    "tone": {
+      "weight": 0.5,
+      "confidence": 0.0,
+      "samples": 0,
+      "history": []
+    },
+    "formality": {
+      "weight": 0.5,
+      "confidence": 0.0,
+      "samples": 0,
+      "history": []
+    },
+    "topic_python": {
+      "weight": 0.53,
+      "confidence": 0.1,
+      "samples": 1,
+      "history": [
+        {
+          "value": 0.8,
+          "timestamp": 1773230815.853825
+        }
+      ]
+    },
+    "response_code": {
+      "weight": 0.53,
+      "confidence": 0.1,
+      "samples": 1,
+      "history": [
+        {
+          "value": 0.8,
+          "timestamp": 1773230815.853829
+        }
+      ]
+    },
+    "tone_neutral": {
+      "weight": 0.537,
+      "confidence": 0.2,
+      "samples": 2,
+      "history": [
+        {
+          "value": 0.8,
+          "timestamp": 1773230815.8538318
+        },
+        {
+          "value": 0.6,
+          "timestamp": 1773230815.8546624
+        }
+      ]
+    },
+    "detail_balanced": {
+      "weight": 0.537,
+      "confidence": 0.2,
+      "samples": 2,
+      "history": [
+        {
+          "value": 0.8,
+          "timestamp": 1773230815.8538337
+        },
+        {
+          "value": 0.6,
+          "timestamp": 1773230815.8546646
+        }
+      ]
+    },
+    "topic_philosophy": {
+      "weight": 0.51,
+      "confidence": 0.1,
+      "samples": 1,
+      "history": [
+        {
+          "value": 0.6,
+          "timestamp": 1773230815.8546562
+        }
+      ]
+    },
+    "response_explanation": {
+      "weight": 0.51,
+      "confidence": 0.1,
+      "samples": 1,
+      "history": [
+        {
+          "value": 0.6,
+          "timestamp": 1773230815.8546598
+        }
+      ]
+    }
+  },
+  "timestamp": "2026-03-11T12:06:55.854671"
+}

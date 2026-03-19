@@ -1,0 +1,46 @@
+{
+  "properties": {
+    "185d57f3d1bccb11": {
+      "claims": [
+        "2026-03-19T01:20:16.375334"
+      ],
+      "verified_owner": null,
+      "sovereignty_status": "disputed"
+    }
+  },
+  "claims": [
+    {
+      "property_id": "185d57f3d1bccb11",
+      "claimant": "Sovereign Individual Alpha",
+      "description": "Homesteaded land parcel, 5 acres",
+      "coordinates": {
+        "lat": 45.5231,
+        "lon": -122.6765
+      },
+      "evidence": [
+        "Continuous occupation for 10 years",
+        "Improvements: house, well, garden",
+        "No competing claims in public record"
+      ],
+      "sovereignty_basis": "Natural Law - Lockean Homesteading Principle",
+      "timestamp": "2026-03-19T01:20:16.375334",
+      "status": "pending_verification",
+      "verification_score": 0.0
+    }
+  ],
+  "verifications": [
+    {
+      "property_id": "185d57f3d1bccb11",
+      "method": "natural_law",
+      "data": {
+        "homesteading": true,
+        "continuous_possession_years": 10,
+        "improvements_value": 150000
+      },
+      "score": 0.65,
+      "timestamp": "2026-03-19T01:20:16.376095",
+      "verified": false
+    }
+  ],
+  "sovereignty_chain": []
+}

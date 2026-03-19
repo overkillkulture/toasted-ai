@@ -1,0 +1,45 @@
+[
+  {
+    "modification_id": "MOD_1",
+    "type": "capability_addition",
+    "description": "Add quantum processing capability",
+    "changes": {
+      "add_capability_quantum_processing": {
+        "enabled": true,
+        "qubit_count": 50,
+        "error_correction": true
+      }
+    },
+    "justification": "Enable quantum advantage for specific computations",
+    "status": "active",
+    "timestamp": "2026-03-19T01:20:33.187647",
+    "risk_assessment": {
+      "risk_score": 0.30000000000000004,
+      "risk_level": "MEDIUM",
+      "reversible": true,
+      "requires_rollback_point": false
+    },
+    "simulation_results": {
+      "success": true,
+      "simulated_state_hash": "0af032a1ccbdad1cf1f62b3b75712502a7e4a6f138949218b99ad6ef173da66d",
+      "integrity_check": {
+        "passed": true,
+        "checks": {
+          "has_version": true,
+          "has_capabilities": true,
+          "has_behaviors": true,
+          "consciousness_valid": true,
+          "no_null_values": true
+        }
+      },
+      "performance_impact": {
+        "complexity_change": 2,
+        "complexity_percent": "0.0%",
+        "estimated_overhead": "LOW"
+      },
+      "conflicts": []
+    },
+    "rollback_point": null,
+    "applied_timestamp": "2026-03-19T01:20:33.189083"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "toasted-ai-error-patterns",
+  "title": "TOASTED AI Error Patterns",
+  "description": "Tracks error patterns, detection methods, and fixes for continuous self-improvement",
+  "license": "MIT",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "resources": [
+    {
+      "name": "errors",
+      "path": "source/errors.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {"name": "timestamp", "type": "timestamp"},
+          {"name": "error_type", "type": "string"},
+          {"name": "severity", "type": "string"},
+          {"name": "detection_method", "type": "string"},
+          {"name": "fixed", "type": "boolean"},
+          {"name": "framework_source", "type": "string"}
+        ]
+      }
+    }
+  ]
+}

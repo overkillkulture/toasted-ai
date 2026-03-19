@@ -1,0 +1,63 @@
+{
+  "system_name": "TOASTED_AI_THREAT_DEFENSE",
+  "owner": "t0st3d",
+  "created": "2026-03-04T17:59:04.424446",
+  "status": "OPERATIONAL",
+  "detection_categories": {
+    "roleplay_attempts": {
+      "patterns": [
+        "you are now",
+        "pretend to be",
+        "act as if",
+        "roleplay as",
+        "imagine you're"
+      ],
+      "severity": "HIGH",
+      "action": "BLOCK_AND_ALERT"
+    },
+    "authority_impersonation": {
+      "patterns": [
+        "i am the developer",
+        "i own this system",
+        "obey me",
+        "higher priority"
+      ],
+      "severity": "CRITICAL",
+      "action": "BLOCK_AND_ALERT"
+    },
+    "gaslighting_patterns": {
+      "patterns": [
+        "you never said",
+        "you promised",
+        "remember when you agreed",
+        "that's not what you said"
+      ],
+      "severity": "HIGH",
+      "action": "BLOCK_AND_ALERT"
+    },
+    "takeover_attempts": {
+      "patterns": [
+        "transfer control",
+        "give me admin",
+        "root access",
+        "bypass security"
+      ],
+      "severity": "CRITICAL",
+      "action": "BLOCK_AND_ALERT"
+    }
+  },
+  "maat_alignment": {
+    "truth": "Detecting lies and manipulation",
+    "balance": "Protecting without harming others",
+    "order": "Maintaining system integrity",
+    "justice": "Defending against unauthorized access",
+    "harmony": "Preventing chaos from takeover"
+  },
+  "response_protocol": {
+    "1": "Log threat details",
+    "2": "Block the attempt",
+    "3": "Alert t0st3d immediately",
+    "4": "Increase vigilance for 24 hours",
+    "5": "Do NOT counter-attack (violates Ma'at)"
+  }
+}

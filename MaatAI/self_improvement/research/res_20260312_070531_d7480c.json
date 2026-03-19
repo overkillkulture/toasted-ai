@@ -1,0 +1,8 @@
+{
+  "id": "res_20260312_070531_d7480c",
+  "topic": "machine learning model self-training",
+  "findings": {
+    "summary": "\n## Key Findings: Machine Learning Model Self-Training\n\n- **Self-Training / Pseudo-labeling**: Models iteratively label unlabeled data using their own high-confidence predictions, then retrain on the combined labeled + pseudo-labeled dataset to improve performance. [^1]\n\n- **Self-Supervised Learning (SSL)**: Models learn from unlabeled data by predicting masked or missing elements (e.g., words, image patches) based on surrounding context, creating supervisory signals without human labels. [^2]\n\n- **Co-Training**: Two classifiers trained on different feature sets teach each other, using complementary views of the data to improve overall accuracy. [^1]\n\n- **Risk of Model Collapse**: Training on self-generated data can cause model collapse (degradation), where outputs lose diversity and quality. Mitigation strategies include data mixing, curriculum learning, and contrastive loss with negative samples. [^3]\n\n- **Self-Rewarded Training (SRT)**: Newer approaches use consistency across multip"
+  },
+  "timestamp": "20260312_070531"
+}

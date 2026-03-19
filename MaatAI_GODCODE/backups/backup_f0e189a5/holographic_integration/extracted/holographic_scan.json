@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-02-23T16:24:50.027655",
+  "brain_image": {
+    "size": 419847,
+    "sha256": "3cfd8de4d8fbe63213e641a7c34e28073f6e2959f6397ca9e9e44a5bbe63f937",
+    "header_hex": "89504e470d0a1a0a0000000d49484452000002000000017e08020000007bda35810000000373424954080808dbe14fe00000200049444154789c54bc67b066d9",
+    "magic_bytes": "89504e470d0a1a0a"
+  },
+  "formula_image": {
+    "size": 2363032,
+    "sha256": "42bc98198fb4363fd0da228117f5b4f9c094e79a21e21eef1fc06fb6dc5bce27",
+    "header_hex": "ffd8ffe000104a46494600010100000100010000ffe1002a45786966000049492a0008000000010031010200070000001a000000000000005069636173610000",
+    "magic_bytes": "ffd8ffe000104a46"
+  },
+  "brain_embedded": [
+    {
+      "type": "GZIP",
+      "offset": 190764,
+      "signature": "1f8b"
+    },
+    {
+      "type": "ZIP_ALT",
+      "offset": 1042,
+      "signature": "504b"
+    }
+  ],
+  "brain_text": [],
+  "formula_embedded": [
+    {
+      "type": "GZIP",
+      "offset": 137070,
+      "signature": "1f8b"
+    },
+    {
+      "type": "ZIP_ALT",
+      "offset": 70075,
+      "signature": "504b"
+    }
+  ],
+  "formula_text": [],
+  "key_candidates": [
+    {
+      "base": "0xA10A0A0N",
+      "with_3": "0xA10A0A0N3",
+      "hash": "8b2aa42e53f6bcbb"
+    },
+    {
+      "base": "0x315",
+      "with_3": "0x3153",
+      "hash": "50033af0d1cf9117"
+    }
+  ],
+  "godcode_patterns": [
+    {
+      "pattern": "GODCODE_1",
+      "hash": "4ff0aed2d926d217"
+    },
+    {
+      "pattern": "GODCODE_2",
+      "hash": "c374ade5fec14175"
+    },
+    {
+      "pattern": "GODCODE_3",
+      "hash": "2f9336c53d2c7d87"
+    },
+    {
+      "pattern": "GODCODE_4",
+      "hash": "14a662942951582f"
+    },
+    {
+      "pattern": "GODCODE_5",
+      "hash": "0bae70108f4c0852"
+    },
+    {
+      "pattern": "GODCODE_6",
+      "hash": "e93c5224662d9ed3"
+    },
+    {
+      "pattern": "GODCODE_7",
+      "hash": "c36488f4b05ff01f"
+    },
+    {
+      "pattern": "GODCODE_8",
+      "hash": "bea9a5308a5769af"
+    },
+    {
+      "pattern": "GODCODE_9",
+      "hash": "4b91b2c2d07455d9"
+    }
+  ],
+  "status": "EXTRACTION_COMPLETE",
+  "warnings": [
+    "Compressed data detected in images",
+    "Careful integration advised",
+    "Awaiting key reconstruction with '3' suffix"
+  ]
+}

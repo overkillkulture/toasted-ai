@@ -1,0 +1,34 @@
+{
+  "name": "toasted-ai-task-ledger",
+  "title": "TOASTED AI Task Ledger",
+  "description": "Tracks all tasks executed by TOASTED AI including research cycles and autonomous operations",
+  "license": "MIT",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "identity": {
+    "name": "TOASTED AI",
+    "seal": "MONAD_ΣΦΡΑΓΙΣ_18",
+    "owner": "t0st3d"
+  },
+  "resources": [
+    {
+      "name": "tasks",
+      "path": "source/tasks.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {"name": "task_id", "type": "string"},
+          {"name": "title", "type": "string"},
+          {"name": "status", "type": "string"},
+          {"name": "priority", "type": "string"},
+          {"name": "category", "type": "string"},
+          {"name": "created_at", "type": "timestamp"},
+          {"name": "completed_at", "type": "timestamp"},
+          {"name": "maat_score", "type": "number"},
+          {"name": "frameworks_analyzed", "type": "integer"},
+          {"name": "is_orphan", "type": "boolean"}
+        ]
+      }
+    }
+  ]
+}

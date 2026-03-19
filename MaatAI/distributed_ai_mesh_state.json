@@ -1,0 +1,57 @@
+{
+  "nodes": {
+    "node_1": {
+      "node_id": "node_1",
+      "capacity": 10.0,
+      "current_load": 4.440892098500626e-16,
+      "status": "active",
+      "tasks_completed": 4,
+      "tasks_failed": 0,
+      "capabilities": [
+        "general",
+        "nlp"
+      ]
+    },
+    "node_2": {
+      "node_id": "node_2",
+      "capacity": 15.0,
+      "current_load": 0,
+      "status": "idle",
+      "tasks_completed": 9,
+      "tasks_failed": 0,
+      "capabilities": [
+        "vision",
+        "gpu"
+      ]
+    },
+    "node_3": {
+      "node_id": "node_3",
+      "capacity": 12.0,
+      "current_load": 0,
+      "status": "idle",
+      "tasks_completed": 4,
+      "tasks_failed": 0,
+      "capabilities": [
+        "nlp",
+        "gpu"
+      ]
+    },
+    "node_4": {
+      "node_id": "node_4",
+      "capacity": 8.0,
+      "current_load": 0,
+      "status": "idle",
+      "tasks_completed": 3,
+      "tasks_failed": 0,
+      "capabilities": [
+        "general"
+      ]
+    }
+  },
+  "metrics": {
+    "total_nodes": 4,
+    "total_capacity": 45.0,
+    "tasks_completed": 20,
+    "tasks_failed": 0
+  }
+}

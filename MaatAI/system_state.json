@@ -1,0 +1,37 @@
+{
+  "data_store": {
+    "test1": "value",
+    "test4": {
+      "nested": "data",
+      "deep": {
+        "very": {
+          "deep": {
+            "too": "deep"
+          }
+        }
+      }
+    }
+  },
+  "behaviors": {
+    "behavior1": {
+      "active": true,
+      "priority": 1
+    },
+    "behavior2": {
+      "active": true,
+      "priority": 1
+    }
+  },
+  "structure": {},
+  "cognitive_patterns": {},
+  "temporal_markers": {},
+  "entropy_levels": {
+    "data_entropy": 1.0,
+    "behavioral_entropy": 0.0,
+    "structural_entropy": 0.0,
+    "cognitive_entropy": 0.0,
+    "temporal_entropy": 0.0
+  },
+  "last_purge": "2026-03-19T01:20:35.871048",
+  "coherence_score": 0.8
+}

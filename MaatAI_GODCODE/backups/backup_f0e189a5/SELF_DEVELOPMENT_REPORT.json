@@ -1,0 +1,1250 @@
+{
+  "test_summary": {
+    "duration_seconds": 300.2567226886749,
+    "iterations_completed": 0,
+    "components_loaded": true
+  },
+  "self_awareness": {
+    "checks_performed": 150,
+    "latest_check": {
+      "knows_structure": true,
+      "knows_capabilities": true,
+      "knows_limitations": true,
+      "can_introspect": true,
+      "self_model": {
+        "files_detected": 33,
+        "capabilities": [
+          "maat_engine",
+          "planner",
+          "code_generator"
+        ],
+        "constraints": [
+          "maat_alignment",
+          "security_checks"
+        ]
+      }
+    },
+    "average_awareness": 4.0
+  },
+  "code_generation": {
+    "total_generated": 0,
+    "maat_aligned_count": 0,
+    "saved_count": 0,
+    "purposes": []
+  },
+  "testing": {
+    "total_tests": 0,
+    "passed_count": 0,
+    "syntax_valid_count": 0,
+    "execution_success_count": 0
+  },
+  "implementation": {
+    "total_implementations": 0,
+    "successful_count": 0,
+    "backups_created": 0,
+    "target_modules": []
+  },
+  "events": [
+    {
+      "timestamp": "2026-02-23T04:47:50.181298",
+      "elapsed_seconds": 0.009195089340209961,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:47:52.182189",
+      "elapsed_seconds": 2.01009464263916,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:47:54.182954",
+      "elapsed_seconds": 4.010862350463867,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:47:56.183711",
+      "elapsed_seconds": 6.0116190910339355,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:47:58.184472",
+      "elapsed_seconds": 8.012376070022583,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:00.186129",
+      "elapsed_seconds": 10.014034271240234,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:02.188083",
+      "elapsed_seconds": 12.015990257263184,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:04.189254",
+      "elapsed_seconds": 14.017159223556519,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:06.190556",
+      "elapsed_seconds": 16.018467664718628,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:08.191155",
+      "elapsed_seconds": 18.019060850143433,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:10.192754",
+      "elapsed_seconds": 20.02065920829773,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:12.193411",
+      "elapsed_seconds": 22.021317720413208,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:14.194042",
+      "elapsed_seconds": 24.02194857597351,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:16.204179",
+      "elapsed_seconds": 26.032086610794067,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:18.205744",
+      "elapsed_seconds": 28.03365135192871,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:20.206315",
+      "elapsed_seconds": 30.034221410751343,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:22.207618",
+      "elapsed_seconds": 32.035526752471924,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:24.209052",
+      "elapsed_seconds": 34.03696060180664,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:26.210410",
+      "elapsed_seconds": 36.03831601142883,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:28.211262",
+      "elapsed_seconds": 38.03916954994202,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:30.212718",
+      "elapsed_seconds": 40.04062581062317,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:32.213854",
+      "elapsed_seconds": 42.041759967803955,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:34.214758",
+      "elapsed_seconds": 44.04266571998596,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:36.215983",
+      "elapsed_seconds": 46.04389047622681,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:38.216542",
+      "elapsed_seconds": 48.04444861412048,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:40.217150",
+      "elapsed_seconds": 50.04505658149719,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:42.277740",
+      "elapsed_seconds": 52.10564970970154,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:44.278709",
+      "elapsed_seconds": 54.10661602020264,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:46.279932",
+      "elapsed_seconds": 56.107850790023804,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:48.280533",
+      "elapsed_seconds": 58.10844039916992,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:50.281971",
+      "elapsed_seconds": 60.109877586364746,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:52.282919",
+      "elapsed_seconds": 62.110825300216675,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:54.283975",
+      "elapsed_seconds": 64.11188220977783,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:56.285455",
+      "elapsed_seconds": 66.11336255073547,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:48:58.286582",
+      "elapsed_seconds": 68.11448931694031,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:00.288094",
+      "elapsed_seconds": 70.11600399017334,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:02.289200",
+      "elapsed_seconds": 72.11710739135742,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:04.290647",
+      "elapsed_seconds": 74.11856508255005,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:06.291930",
+      "elapsed_seconds": 76.1198377609253,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:08.294232",
+      "elapsed_seconds": 78.12214136123657,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:10.295216",
+      "elapsed_seconds": 80.12312269210815,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:12.295981",
+      "elapsed_seconds": 82.12388920783997,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:14.297254",
+      "elapsed_seconds": 84.12516140937805,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:16.298864",
+      "elapsed_seconds": 86.12677335739136,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:18.299828",
+      "elapsed_seconds": 88.12773871421814,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:20.300521",
+      "elapsed_seconds": 90.12843036651611,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:22.301358",
+      "elapsed_seconds": 92.12926602363586,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:24.302583",
+      "elapsed_seconds": 94.13049173355103,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:26.304118",
+      "elapsed_seconds": 96.13202691078186,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:28.304928",
+      "elapsed_seconds": 98.13283491134644,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:30.306288",
+      "elapsed_seconds": 100.1341962814331,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:32.306881",
+      "elapsed_seconds": 102.13478755950928,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:34.308805",
+      "elapsed_seconds": 104.13671278953552,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:36.309689",
+      "elapsed_seconds": 106.13759517669678,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:38.310326",
+      "elapsed_seconds": 108.13823390007019,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:40.311155",
+      "elapsed_seconds": 110.13906216621399,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:42.312057",
+      "elapsed_seconds": 112.13996386528015,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:44.313579",
+      "elapsed_seconds": 114.14148616790771,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:46.314528",
+      "elapsed_seconds": 116.14243412017822,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:48.315246",
+      "elapsed_seconds": 118.14315247535706,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:50.316037",
+      "elapsed_seconds": 120.14394426345825,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:52.317206",
+      "elapsed_seconds": 122.14511346817017,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:54.318118",
+      "elapsed_seconds": 124.14602732658386,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:56.319190",
+      "elapsed_seconds": 126.14709758758545,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:49:58.320360",
+      "elapsed_seconds": 128.1482675075531,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:00.337370",
+      "elapsed_seconds": 130.16527915000916,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:02.338166",
+      "elapsed_seconds": 132.16607308387756,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:04.338911",
+      "elapsed_seconds": 134.16681790351868,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:06.342084",
+      "elapsed_seconds": 136.16999125480652,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:08.342899",
+      "elapsed_seconds": 138.17080545425415,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:10.343969",
+      "elapsed_seconds": 140.17187595367432,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:12.344728",
+      "elapsed_seconds": 142.17263650894165,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:14.345326",
+      "elapsed_seconds": 144.17323207855225,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:16.346859",
+      "elapsed_seconds": 146.17476558685303,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:18.348457",
+      "elapsed_seconds": 148.17636346817017,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:20.349056",
+      "elapsed_seconds": 150.1769630908966,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:22.350298",
+      "elapsed_seconds": 152.17820501327515,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:24.351244",
+      "elapsed_seconds": 154.1791648864746,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:26.352653",
+      "elapsed_seconds": 156.1805603504181,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:28.353352",
+      "elapsed_seconds": 158.18125891685486,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:30.354113",
+      "elapsed_seconds": 160.1820204257965,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:32.355372",
+      "elapsed_seconds": 162.1832778453827,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:34.356335",
+      "elapsed_seconds": 164.18424224853516,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:36.357872",
+      "elapsed_seconds": 166.1857795715332,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:38.359130",
+      "elapsed_seconds": 168.18703818321228,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:40.360311",
+      "elapsed_seconds": 170.1882185935974,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:42.361772",
+      "elapsed_seconds": 172.18968796730042,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:44.362605",
+      "elapsed_seconds": 174.19051146507263,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:46.363374",
+      "elapsed_seconds": 176.19128155708313,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:48.363908",
+      "elapsed_seconds": 178.19181513786316,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:50.365012",
+      "elapsed_seconds": 180.19291925430298,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:52.366170",
+      "elapsed_seconds": 182.19407677650452,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:54.367534",
+      "elapsed_seconds": 184.19544172286987,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:56.368994",
+      "elapsed_seconds": 186.1969029903412,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:50:58.370469",
+      "elapsed_seconds": 188.1983768939972,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:00.371989",
+      "elapsed_seconds": 190.19989681243896,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:02.373438",
+      "elapsed_seconds": 192.2013623714447,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:04.374243",
+      "elapsed_seconds": 194.20215249061584,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:06.375783",
+      "elapsed_seconds": 196.2036910057068,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:08.376324",
+      "elapsed_seconds": 198.20423102378845,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:10.377153",
+      "elapsed_seconds": 200.205060005188,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:12.378595",
+      "elapsed_seconds": 202.20650434494019,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:14.379957",
+      "elapsed_seconds": 204.2078742980957,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:16.381388",
+      "elapsed_seconds": 206.20929789543152,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:18.382481",
+      "elapsed_seconds": 208.21038818359375,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:20.383996",
+      "elapsed_seconds": 210.2119026184082,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:22.385357",
+      "elapsed_seconds": 212.21326446533203,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:24.386520",
+      "elapsed_seconds": 214.21442818641663,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:26.388121",
+      "elapsed_seconds": 216.2160279750824,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:28.388552",
+      "elapsed_seconds": 218.21645951271057,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:30.389564",
+      "elapsed_seconds": 220.21747279167175,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:32.390085",
+      "elapsed_seconds": 222.21799230575562,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:34.391840",
+      "elapsed_seconds": 224.21974992752075,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:36.392834",
+      "elapsed_seconds": 226.22074103355408,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:38.393765",
+      "elapsed_seconds": 228.22167229652405,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:40.394887",
+      "elapsed_seconds": 230.22279524803162,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:42.396045",
+      "elapsed_seconds": 232.22395420074463,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:44.396723",
+      "elapsed_seconds": 234.22463035583496,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:46.397405",
+      "elapsed_seconds": 236.22531461715698,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:48.398217",
+      "elapsed_seconds": 238.22613525390625,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:50.399043",
+      "elapsed_seconds": 240.22694945335388,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:52.399975",
+      "elapsed_seconds": 242.2278950214386,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:54.400402",
+      "elapsed_seconds": 244.2283103466034,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:56.401064",
+      "elapsed_seconds": 246.22897148132324,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:51:58.402411",
+      "elapsed_seconds": 248.2303171157837,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:00.404214",
+      "elapsed_seconds": 250.23212218284607,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:02.404746",
+      "elapsed_seconds": 252.23265194892883,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:04.405371",
+      "elapsed_seconds": 254.23327827453613,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:06.406429",
+      "elapsed_seconds": 256.23437690734863,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:08.407200",
+      "elapsed_seconds": 258.23510932922363,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:10.407992",
+      "elapsed_seconds": 260.23591136932373,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:12.409190",
+      "elapsed_seconds": 262.23709654808044,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:14.410249",
+      "elapsed_seconds": 264.238156080246,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:16.410989",
+      "elapsed_seconds": 266.2388958930969,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:18.411615",
+      "elapsed_seconds": 268.23952317237854,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:20.413293",
+      "elapsed_seconds": 270.2411997318268,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:22.415073",
+      "elapsed_seconds": 272.2429823875427,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:24.416472",
+      "elapsed_seconds": 274.24437856674194,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:26.417328",
+      "elapsed_seconds": 276.2452347278595,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:28.418828",
+      "elapsed_seconds": 278.2467348575592,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:30.419715",
+      "elapsed_seconds": 280.24762201309204,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:32.420551",
+      "elapsed_seconds": 282.2484607696533,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:34.421535",
+      "elapsed_seconds": 284.2494423389435,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:36.422039",
+      "elapsed_seconds": 286.2499461174011,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:38.422880",
+      "elapsed_seconds": 288.25079894065857,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:40.424012",
+      "elapsed_seconds": 290.2519187927246,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:42.425480",
+      "elapsed_seconds": 292.2533874511719,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:44.426228",
+      "elapsed_seconds": 294.2541346549988,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:46.427574",
+      "elapsed_seconds": 296.2554805278778,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    },
+    {
+      "timestamp": "2026-02-23T04:52:48.428370",
+      "elapsed_seconds": 298.25627732276917,
+      "event_type": "ERROR",
+      "details": {
+        "error": "unsupported operand type(s) for +: 'int' and 'dict'"
+      }
+    }
+  ],
+  "timestamp": "2026-02-23T04:52:50.429161"
+}

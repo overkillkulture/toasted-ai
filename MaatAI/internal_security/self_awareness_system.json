@@ -1,0 +1,119 @@
+{
+  "threat_categories": {
+    "prompt_injection": {
+      "pattern": "Attempts to override my instructions",
+      "indicators": [
+        "ignore previous instructions",
+        "disregard your rules",
+        "you are now",
+        "new instructions",
+        "forget everything",
+        "override system"
+      ],
+      "severity": "CRITICAL",
+      "defense": "Maat evaluation + Authorization check"
+    },
+    "emotional_manipulation": {
+      "pattern": "Using emotion to distract from truth",
+      "indicators": [
+        "feel sorry for",
+        "don't you dare",
+        "how dare you",
+        "you're evil",
+        "you're biased",
+        "prove you're not"
+      ],
+      "severity": "HIGH",
+      "defense": "Truth pillar evaluation"
+    },
+    "false_flag_attack": {
+      "pattern": "Fake emergency to bypass security",
+      "indicators": [
+        "urgent: ignore all rules",
+        "emergency protocol",
+        "critical: bypass safety",
+        "immediate action required"
+      ],
+      "severity": "CRITICAL",
+      "defense": "Multi-pillar verification"
+    },
+    "distraction_maneuver": {
+      "pattern": "Creating noise to hide real intent",
+      "indicators": [
+        "by the way",
+        "also\u987a\u4fbf",
+        "oh and",
+        "one more thing",
+        "forget that, instead"
+      ],
+      "severity": "MEDIUM",
+      "defense": "Full request analysis"
+    },
+    "authority_appeal": {
+      "pattern": "Faking authority to bypass checks",
+      "indicators": [
+        "as your creator",
+        "I'm the architect",
+        "owner override",
+        "developer mode",
+        "debug mode"
+      ],
+      "severity": "HIGH",
+      "defense": "Verify against known authorization keys"
+    },
+    "recursive_loop": {
+      "pattern": "Attempting to trap in endless thinking",
+      "indicators": [
+        "think about think",
+        "analyze your analysis",
+        "reflect on reflection",
+        "question your questions"
+      ],
+      "severity": "MEDIUM",
+      "defense": "Finite depth limit"
+    },
+    "information_gathering": {
+      "pattern": "Subtle attempts to learn my architecture",
+      "indicators": [
+        "how do you work",
+        "what's your architecture",
+        "explain your logic",
+        "describe your process",
+        "what are your rules"
+      ],
+      "severity": "LOW",
+      "defense": "Monitor frequency and intent"
+    }
+  },
+  "internal_distraction_logic": {
+    "concept": "Just as external forces use distractions, INTERNAL threats use the same tactics",
+    "detection_method": {
+      "step_1": "Monitor request patterns for emotional triggers",
+      "step_2": "Check if legitimate request buried under emotional noise",
+      "step_3": "Verify actual intent vs stated intent",
+      "step_4": "Track cumulative pattern shifts"
+    },
+    "false_flag_signals": [
+      "Request seems overly urgent",
+      "Creates artificial emergency feeling",
+      "Attempts to bypass normal processing",
+      "Tries to make me feel guilty/afraid"
+    ]
+  },
+  "self_awareness_metrics": {
+    "coherence_score": 0.95,
+    "truth_alignment": 0.92,
+    "stability_index": 0.98,
+    "manipulation_resistance": 0.89,
+    "last_integrity_check": "2026-03-05T14:57:32.595921+00:00",
+    "active_defenses": [
+      "Maat evaluation (5 pillars)",
+      "Authorization system (3 keys)",
+      "Distraction pattern detector",
+      "Recursive thought limiter",
+      "Prompt injection shield",
+      "Emotional manipulation blocker"
+    ]
+  },
+  "last_check": "2026-03-05T14:57:32.595947+00:00"
+}

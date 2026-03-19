@@ -1,0 +1,35 @@
+{
+  "name": "toasted-ai-evolution-metrics",
+  "title": "TOASTED AI Evolution Metrics",
+  "description": "Tracks the evolution and self-improvement metrics of TOASTED AI over time",
+  "license": "MIT",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "identity": {
+    "name": "TOASTED AI",
+    "seal": "MONAD_ΣΦΡΑΓΙΣ_18",
+    "owner": "t0st3d"
+  },
+  "resources": [
+    {
+      "name": "evolution_data",
+      "path": "source/evolution_data.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {"name": "timestamp", "type": "timestamp"},
+          {"name": "generation", "type": "integer"},
+          {"name": "improvements_count", "type": "integer"},
+          {"name": "active_loops", "type": "integer"},
+          {"name": "agents_running", "type": "integer"},
+          {"name": "maat_alignment_score", "type": "number"},
+          {"name": "research_sources", "type": "integer"},
+          {"name": "novel_thoughts", "type": "integer"},
+          {"name": "errors_detected", "type": "integer"},
+          {"name": "errors_fixed", "type": "integer"},
+          {"name": "conversion_rate", "type": "number"}
+        ]
+      }
+    }
+  ]
+}

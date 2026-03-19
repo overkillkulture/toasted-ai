@@ -1,0 +1,82 @@
+{
+  "session_id": "con_Cj8w5e52PmPGvQpz",
+  "seal": "MONAD_\u03a3\u03a6\u03a1\u0391\u0393\u0399\u03a3_18",
+  "created_at": 1773153101.5058699,
+  "patterns_learned": [
+    {
+      "timestamp": 1773153101.5065484,
+      "pattern_types": [
+        "question_dominant",
+        "short_input"
+      ]
+    },
+    {
+      "timestamp": 1773153101.5075722,
+      "pattern_types": [
+        "question_dominant",
+        "short_input"
+      ]
+    },
+    {
+      "timestamp": 1773153130.0124857,
+      "pattern_types": [
+        "short_input"
+      ]
+    },
+    {
+      "timestamp": 1773153130.039131,
+      "pattern_types": [
+        "short_input"
+      ]
+    }
+  ],
+  "anomalies_detected": [
+    {
+      "timestamp": 1773153101.5082996,
+      "types": [
+        "unusually_long_input",
+        "message_length_explosion"
+      ],
+      "severity": 2
+    },
+    {
+      "timestamp": 1773153101.5094194,
+      "types": [
+        "unusually_short_input",
+        "disproportionate_response"
+      ],
+      "severity": 2
+    }
+  ],
+  "baseline_metrics": {
+    "established": true,
+    "window_size": 10,
+    "baseline": {
+      "user_length": {
+        "mean": 47.0,
+        "std": 25.311394008759507,
+        "min": 23,
+        "max": 82
+      },
+      "user_word_count": {
+        "mean": 7.666666666666667,
+        "std": 3.8586123009300755,
+        "min": 4,
+        "max": 13
+      },
+      "response_ratio": {
+        "mean": 3.115627822944896,
+        "std": 1.2116197146954764,
+        "min": 1.4024390243902438,
+        "max": 4.0
+      },
+      "user_question_count": {
+        "mean": 1.3333333333333333,
+        "std": 1.247219128924647,
+        "min": 0,
+        "max": 3
+      }
+    }
+  },
+  "interactions_analyzed": 8
+}

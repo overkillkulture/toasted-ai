@@ -1,0 +1,87 @@
+{
+  "entities": {
+    "STATE_001": {
+      "entity_id": "STATE_001",
+      "name": "Federal State Alpha",
+      "type": "state_sovereignty",
+      "recognized_in": [
+        "US",
+        "UN",
+        "EU"
+      ],
+      "documentation": {
+        "treaty_status": "full_recognition"
+      },
+      "registration_date": "2026-03-19T01:20:18.405304",
+      "immunity_level": "absolute",
+      "active": true
+    },
+    "TRIBAL_001": {
+      "entity_id": "TRIBAL_001",
+      "name": "Indigenous Nation Beta",
+      "type": "tribal_sovereignty",
+      "recognized_in": [
+        "US"
+      ],
+      "documentation": {
+        "treaty_date": "1851",
+        "status": "federally_recognized"
+      },
+      "registration_date": "2026-03-19T01:20:18.405817",
+      "immunity_level": "qualified",
+      "active": true
+    }
+  },
+  "jurisdictions": {},
+  "immunity_rules": {},
+  "check_history": [
+    {
+      "entity_id": "STATE_001",
+      "entity_name": "Federal State Alpha",
+      "jurisdiction": "US",
+      "context": "civil",
+      "action_type": "lawsuit",
+      "sovereignty_recognized": true,
+      "immunity_level": "absolute",
+      "immunity_applies": true,
+      "exceptions": [],
+      "timestamp": "2026-03-19T01:20:18.406153"
+    },
+    {
+      "entity_id": "STATE_001",
+      "entity_name": "Federal State Alpha",
+      "jurisdiction": "US",
+      "context": "commercial",
+      "action_type": "contract_dispute",
+      "sovereignty_recognized": true,
+      "immunity_level": "absolute",
+      "immunity_applies": false,
+      "exceptions": [
+        {
+          "exception": "commercial_activity",
+          "applies": false,
+          "waives_immunity": true
+        }
+      ],
+      "timestamp": "2026-03-19T01:20:18.406461"
+    },
+    {
+      "entity_id": "TRIBAL_001",
+      "entity_name": "Indigenous Nation Beta",
+      "jurisdiction": "US",
+      "context": "commercial",
+      "action_type": "contract_dispute",
+      "sovereignty_recognized": true,
+      "immunity_level": "qualified",
+      "immunity_applies": true,
+      "exceptions": [
+        {
+          "exception": "commercial_activity",
+          "applies": false,
+          "waives_immunity": true
+        }
+      ],
+      "timestamp": "2026-03-19T01:20:18.407590"
+    }
+  ]
+}

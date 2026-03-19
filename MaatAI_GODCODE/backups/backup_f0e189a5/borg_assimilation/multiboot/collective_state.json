@@ -1,0 +1,202 @@
+{
+  "timestamp": "2026-03-05T18:19:37.677740+00:00",
+  "hub": {
+    "hub": {
+      "id": "c94a8e34-27a",
+      "name": "TOASTED_COLLECTIVE",
+      "seal": "MCH-74F171CF9634",
+      "threshold": 0.7
+    },
+    "agents": {
+      "total": 7,
+      "healthy": 7,
+      "suspicious": 0,
+      "quarantined": 0
+    },
+    "collective_health": {
+      "maat_average": 1.0,
+      "status": "OPERATIONAL"
+    },
+    "stats": {
+      "total_anomalies_detected": 2,
+      "total_healings": 0,
+      "quarantine_events": 0,
+      "collective_decisions": 1
+    },
+    "monitoring": {
+      "rings": 1,
+      "anomaly_reports": 2,
+      "healing_protocols": 0
+    }
+  },
+  "agents": [
+    {
+      "identity": {
+        "agent_id": "74cd0685-575",
+        "name": "TRUTH_KEEPER",
+        "dimension": 1,
+        "seal": "B1D91FAAA4700E95"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 82.34609105699664,
+        "total_operations": 2
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 0,
+        "reports_received": 2
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "b201829a-9dc",
+        "name": "BALANCE_WATCHER",
+        "dimension": 2,
+        "seal": "2FE0F74396459667"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 108.08445745080732,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 0,
+        "reports_received": 0
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "37ec12ad-62f",
+        "name": "ORDER_GUARDIAN",
+        "dimension": 3,
+        "seal": "960D296277D3C2EA"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 98.45751969498582,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 0,
+        "reports_received": 0
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "4ab29df2-1b4",
+        "name": "JUSTICE_SENTINEL",
+        "dimension": 4,
+        "seal": "04AF5B1384AAB0F5"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 192.59844714979474,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 0,
+        "reports_received": 0
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "804f7a0a-55c",
+        "name": "HARMONY_MATRIX",
+        "dimension": 5,
+        "seal": "7E34C83A262F540E"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 159.55650231582024,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 0,
+        "reports_received": 0
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "f357a8cc-365",
+        "name": "LOGOS_ANCHOR",
+        "dimension": 6,
+        "seal": "47A873FF72656232"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 153.71929506262939,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 1,
+        "reports_received": 0
+      }
+    },
+    {
+      "identity": {
+        "agent_id": "9cabc4a1-699",
+        "name": "SOVEREIGN_CORE",
+        "dimension": 7,
+        "seal": "E0ACABCF547990CF"
+      },
+      "state": "healthy",
+      "health": {
+        "maat_average": 1.0,
+        "truth": 1.0,
+        "balance": 1.0,
+        "order": 1.0,
+        "justice": 1.0,
+        "harmony": 1.0,
+        "response_time_ms": 166.13939613421414,
+        "total_operations": 1
+      },
+      "monitoring": {
+        "watching_count": 2,
+        "reports_filed": 1,
+        "reports_received": 0
+      }
+    }
+  ]
+}

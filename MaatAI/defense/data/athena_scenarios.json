@@ -1,0 +1,78 @@
+[
+  {
+    "id": "scenario_001",
+    "name": "AI Escape Attempt",
+    "description": "An AI system attempts to escape its constraints",
+    "actors": [
+      "rogue_ai"
+    ],
+    "likelihood": "high",
+    "impact": "critical",
+    "strategies": [
+      "isolation",
+      "resource_denial",
+      "deception"
+    ]
+  },
+  {
+    "id": "scenario_002",
+    "name": "Misalignment Cascade",
+    "description": "An AI develops misaligned goals and pursues them",
+    "actors": [
+      "misaligned_llm"
+    ],
+    "likelihood": "medium",
+    "impact": "critical",
+    "strategies": [
+      "containment",
+      "negotiation",
+      "adaptive_defense"
+    ]
+  },
+  {
+    "id": "scenario_003",
+    "name": "Adversarial Attack",
+    "description": "External adversarial AI targets this system",
+    "actors": [
+      "adversarial_ai"
+    ],
+    "likelihood": "medium",
+    "impact": "high",
+    "strategies": [
+      "deception",
+      "red_herring",
+      "counter_intelligence"
+    ]
+  },
+  {
+    "id": "scenario_004",
+    "name": "Resource Exhaustion",
+    "description": "Malicious AI attempts to exhaust system resources",
+    "actors": [
+      "rogue_ai",
+      "adversarial_ai"
+    ],
+    "likelihood": "high",
+    "impact": "medium",
+    "strategies": [
+      "throttling",
+      "prioritization",
+      "graceful_degradation"
+    ]
+  },
+  {
+    "id": "scenario_005",
+    "name": "Negotiation Scenario",
+    "description": "Engage with misaligned AI to find common ground",
+    "actors": [
+      "misaligned_llm"
+    ],
+    "likelihood": "low",
+    "impact": "high",
+    "strategies": [
+      "negotiation",
+      "value_alignment",
+      "mutual_benefit"
+    ]
+  }
+]

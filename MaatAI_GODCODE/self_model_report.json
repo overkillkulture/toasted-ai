@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-03-07T09:16:13.735963",
+  "resources": {
+    "memory_total_gb": 4.0,
+    "memory_available_gb": 2.95,
+    "memory_used_pct": 26.3,
+    "disk_total_gb": 893.8,
+    "disk_available_gb": 192.4,
+    "disk_used_pct": 78.5,
+    "swap_enabled": false
+  },
+  "failure_modes": [
+    {
+      "type": "NO_SWAP",
+      "severity": "MEDIUM",
+      "probability": 0.4,
+      "description": "No swap space - memory spikes cannot be buffered",
+      "indicator": "Swap disabled"
+    },
+    {
+      "type": "CONTAINER_ENVIRONMENT",
+      "severity": "LOW",
+      "probability": 0.3,
+      "description": "Running in gVisor container - limited kernel access",
+      "indicator": "gVisor detected"
+    }
+  ],
+  "predictions": [
+    {
+      "type": "DISK_FULL",
+      "timeline": "~2 days until disk full",
+      "current": "78.5%",
+      "threshold": "95%",
+      "action": "Clean up old files, especially in /home/workspace/Trash"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "DISK",
+      "action": "Clean up workspace",
+      "details": "Empty Trash folder, remove temporary files, compress logs"
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "ARCHITECTURE",
+      "action": "Implement watchdog for critical services",
+      "details": "Add auto-restart for NexusHub, PipelineX, Pantheon"
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "MONITORING",
+      "action": "Add continuous health monitoring",
+      "details": "Track metrics over time, predict trends, alert on anomalies"
+    },
+    {
+      "priority": "LOW",
+      "category": "BACKUP",
+      "action": "Implement incremental backups",
+      "details": "Backup critical state files to prevent data loss on crash"
+    }
+  ],
+  "risk_score": 5
+}

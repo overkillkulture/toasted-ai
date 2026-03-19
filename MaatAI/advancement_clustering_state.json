@@ -1,0 +1,102 @@
+{
+  "clusters": {
+    "cluster_0": {
+      "cluster_id": "cluster_0",
+      "advancements": [
+        "adv_001"
+      ],
+      "dependencies": [],
+      "priority": 101,
+      "cache_key": "f2a9d6cb6613c7ca"
+    },
+    "cluster_1": {
+      "cluster_id": "cluster_1",
+      "advancements": [
+        "adv_002",
+        "adv_003"
+      ],
+      "dependencies": [
+        "adv_001"
+      ],
+      "priority": 92,
+      "cache_key": "5861ecc0f3f78856"
+    },
+    "cluster_2": {
+      "cluster_id": "cluster_2",
+      "advancements": [
+        "adv_005",
+        "adv_004"
+      ],
+      "dependencies": [
+        "adv_003",
+        "adv_002"
+      ],
+      "priority": 82,
+      "cache_key": "178f0b5faff7384d"
+    },
+    "cluster_3": {
+      "cluster_id": "cluster_3",
+      "advancements": [
+        "adv_006",
+        "adv_007"
+      ],
+      "dependencies": [
+        "adv_003"
+      ],
+      "priority": 92,
+      "cache_key": "af16939cd38a912d"
+    },
+    "cluster_4": {
+      "cluster_id": "cluster_4",
+      "advancements": [
+        "adv_008"
+      ],
+      "dependencies": [
+        "adv_004"
+      ],
+      "priority": 91,
+      "cache_key": "614389c8b6ad7a22"
+    },
+    "cluster_5": {
+      "cluster_id": "cluster_5",
+      "advancements": [
+        "adv_009"
+      ],
+      "dependencies": [
+        "adv_005"
+      ],
+      "priority": 91,
+      "cache_key": "e76e67df832a9272"
+    },
+    "cluster_6": {
+      "cluster_id": "cluster_6",
+      "advancements": [
+        "adv_010"
+      ],
+      "dependencies": [
+        "adv_009"
+      ],
+      "priority": 91,
+      "cache_key": "88e6a7939ba9585f"
+    }
+  },
+  "metrics": {
+    "total_clusters": 7,
+    "avg_cluster_size": 1.4285714285714286,
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "optimization_ratio": 0.0
+  },
+  "advancement_to_cluster": {
+    "adv_001": "cluster_0",
+    "adv_002": "cluster_1",
+    "adv_003": "cluster_1",
+    "adv_005": "cluster_2",
+    "adv_004": "cluster_2",
+    "adv_006": "cluster_3",
+    "adv_007": "cluster_3",
+    "adv_008": "cluster_4",
+    "adv_009": "cluster_5",
+    "adv_010": "cluster_6"
+  }
+}

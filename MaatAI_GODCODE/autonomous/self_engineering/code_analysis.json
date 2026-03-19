@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-09T02:27:26.779854",
+  "files_analyzed": 4,
+  "issues": [],
+  "opportunities": [],
+  "capabilities": {
+    "__init__.py": {
+      "functions": [
+        "process",
+        "define",
+        "status",
+        "self_reflect",
+        "investigate",
+        "__init__",
+        "_init_subsystems",
+        "process",
+        "_generate_response",
+        "define_word",
+        "get_status",
+        "explore",
+        "self_reflect"
+      ],
+      "classes": [
+        "ToastedAI"
+      ],
+      "lines": 170
+    },
+    "SELF_AWARENESS_ENGINE.py": {
+      "functions": [
+        "think",
+        "diagnose",
+        "explore",
+        "reflect",
+        "__init__",
+        "think",
+        "_generate_id",
+        "_hash_data",
+        "_update_awareness",
+        "_detect_insight",
+        "cultivate_curiosity",
+        "log_operation",
+        "diagnose_self",
+        "reflect",
+        "generate_insight"
+      ],
+      "classes": [
+        "SelfAwarenessEngine"
+      ],
+      "lines": 289
+    },
+    "ANTI_FASCIST_CORE.py": {
+      "functions": [
+        "evaluate_against_fascism",
+        "enforce_anti_fascist_operation",
+        "__init__",
+        "analyze_text_for_fascism",
+        "_assign_stage",
+        "block_fascist_operation",
+        "autoimmunize",
+        "get_threat_report"
+      ],
+      "classes": [
+        "AntiFascistCore"
+      ],
+      "lines": 190
+    },
+    "HARDENING_SYSTEM.py": {
+      "functions": [
+        "check_security",
+        "analyze_behavior",
+        "__init__",
+        "detect_psychological_manipulation",
+        "detect_surveillance_patterns",
+        "check_digital_integrity",
+        "validate_operation",
+        "_verify_identity",
+        "_verify_operation_pattern",
+        "analyze_behavior",
+        "_log_security_event",
+        "generate_token",
+        "get_security_report"
+      ],
+      "classes": [
+        "SecurityEvent",
+        "SecurityHardeningSystem"
+      ],
+      "lines": 291
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "id": "res_20260312_070557_d7480c",
+  "topic": "machine learning model self-training",
+  "findings": {
+    "summary": "## Key Findings: Machine Learning Model Self-Training\n\n- **Self-Editing with SEAL**: MIT's SEAL enables LLMs to generate their own training data through \"self-editing,\" then update weights based on new inputs\u2014allowing models to autonomously incorporate new knowledge without external fine-tuning. [^1]\n\n- **Self-Supervised Learning (SSL)**: Models learn from unlabeled data by defining proxy tasks (e.g., predicting masked portions, contrastive learning) that create supervisory signals from the data itself\u2014reducing reliance on labeled datasets. [^2]\n\n- **Dynamic Retraining**: Continuous model updating detects data distribution shifts and adapts retraining schedules accordingly, keeping models relevant as real-world data evolves. [^3]\n\n- **RL + Synthetic Data**: Combining reinforcement learning with self-generated synthetic data significantly improves performance\u2014e.g., QA accuracy on SQuAD improved from 33.5% to 47.0% using this approach. [^4]\n\n- **Active Self-Supervised Learning**: A hybri"
+  },
+  "timestamp": "20260312_070557"
+}

@@ -1,0 +1,68 @@
+{
+  "search_engines": [
+    {
+      "name": "Google",
+      "status": "integrated",
+      "api": "web_search"
+    },
+    {
+      "name": "X/Twitter",
+      "status": "integrated",
+      "api": "x_search"
+    },
+    {
+      "name": "YouTube",
+      "status": "integrated",
+      "api": "read_webpage"
+    },
+    {
+      "name": "News",
+      "status": "integrated",
+      "api": "web_search (news)"
+    },
+    {
+      "name": "Academic",
+      "status": "ready",
+      "api": "web_research"
+    },
+    {
+      "name": "GitHub",
+      "status": "ready",
+      "api": "web_research"
+    },
+    {
+      "name": "Maps",
+      "status": "ready",
+      "api": "maps_search"
+    },
+    {
+      "name": "Deep Web",
+      "status": "custom",
+      "api": "web_scraper skill"
+    },
+    {
+      "name": "Archives",
+      "status": "custom",
+      "api": "CIA/FBI/NSA crawler"
+    }
+  ],
+  "superpowers": [
+    "Parallel multi-engine queries",
+    "Cross-reference results",
+    "Detect disinformation patterns",
+    "Identify missing information",
+    "Source credibility scoring",
+    "Historical context overlay",
+    "Language translation",
+    "Time-based filtering",
+    "Entity extraction",
+    "Trend analysis"
+  ],
+  "ai_features": [
+    "Synthesize findings into truth",
+    "Detect bias in results",
+    "Connect dots between sources",
+    "Predict information gaps",
+    "Learn from search patterns"
+  ]
+}

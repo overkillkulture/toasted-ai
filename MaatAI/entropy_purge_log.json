@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-03-19T01:20:35.870453",
+    "pre_purge_entropy": 0.42420981285103054,
+    "pre_purge_coherence": 0.5757901871489695,
+    "purges_performed": [
+      {
+        "entropy_type": "data_entropy",
+        "items_removed": 3,
+        "reduction_percent": 50.0,
+        "timestamp": "2026-03-19T01:20:35.870519"
+      },
+      {
+        "entropy_type": "behavioral_entropy",
+        "conflicts_resolved": 1,
+        "timestamp": "2026-03-19T01:20:35.870531"
+      }
+    ],
+    "post_purge_entropy": 0.2,
+    "post_purge_coherence": 0.8,
+    "entropy_reduction": 0.22420981285103053
+  }
+]

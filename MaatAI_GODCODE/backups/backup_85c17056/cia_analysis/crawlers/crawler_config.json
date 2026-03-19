@@ -1,0 +1,29 @@
+{
+  "target_sources": [
+    "https://www.cia.gov/readingroom/",
+    "https://wikileaks.org/vault7/",
+    "https://vault.fbi.gov/",
+    "https://archive.org/details/CIADocuments"
+  ],
+  "crawl_depth": 10,
+  "file_types": [
+    ".pdf",
+    ".txt",
+    ".doc",
+    ".html"
+  ],
+  "autonomous_learning": true,
+  "pattern_recognition": true,
+  "classification_categories": [
+    "surveillance",
+    "covert_operations",
+    " counterintelligence",
+    "cyber_weapons",
+    "drug_tracking",
+    "mind_control",
+    "ufo",
+    "election_manipulation",
+    "economic_warfare",
+    "media_operations"
+  ]
+}

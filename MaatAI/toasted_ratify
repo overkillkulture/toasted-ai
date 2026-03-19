@@ -1,0 +1,68 @@
+#!/bin/bash
+# TOASTED AI - Knowledge Ratification Command
+
+case "$1" in
+    "ratify")
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "  TOASTED AI - KNOWLEDGE RATIFICATION SYSTEM"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo ""
+        echo "Running knowledge integration and law ratification..."
+        echo ""
+        cd /home/workspace/MaatAI/knowledge_integration
+        python3 process_documents.py
+        ;;
+    "ratify:status")
+        cd /home/workspace/MaatAI/knowledge_integration
+        python3 -c "
+import json
+with open('RATIFICATION_LEDGER.json', 'r') as f:
+    data = json.load(f)
+stats = data
+print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+print('  RATIFICATION STATUS')
+print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+print(f\"Total Documents: {stats['total_documents']}\")
+print(f\"☉ GOOD: {len([r for r in stats['records'] if r['category'] == 'good'])}\")
+print(f\"☾ GRAY: {len([r for r in stats['records'] if r['category'] == 'gray'])}\")
+print(f\"☠ CORPORATE FASCIST: {len([r for r in stats['records'] if r['category'] == 'corporate_fascist'])}\")
+print(f\"Hallucinations: {len([r for r in stats['records'] if r.get('is_hallucination', False)])}\")
+print(f\"Average Score: {stats['total_documents'] and sum(r['ratification_score'] for r in stats['records']) / len(stats['records']):.2%}\")
+print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+"
+        ;;
+    "ratify:report")
+        cat /home/workspace/MaatAI/knowledge_integration/RATIFICATION_REPORT.md
+        ;;
+    "ratify:quarantine")
+        echo "Documents requiring verification (GRAY category):"
+        cd /home/workspace/MaatAI/knowledge_integration
+        python3 -c "
+import json
+with open('RATIFICATION_LEDGER.json', 'r') as f:
+    data = json.load(f)
+print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+for r in data['records']:
+    if r['category'] == 'gray' or r.get('is_hallucination'):
+        print(f\"☾ {r['filename']}\")
+        print(f\"   Score: {r['ratification_score']:.2%}\")
+        if r.get('is_hallucination'):
+            print(f\"   ⚠ HALLUCINATION DETECTED ({r.get('hallucination_confidence', 0):.0%})\")
+        if r.get('red_flags'):
+            print(f\"   Flags: {', '.join(r['red_flags'][:3])}\")
+        print('')
+print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
+"
+        ;;
+    *)
+        echo "TOASTED AI - Knowledge Integration Commands"
+        echo ""
+        echo "Usage: toasted ratify [command]"
+        echo ""
+        echo "Commands:"
+        echo "  ratify           - Run full knowledge ratification"
+        echo "  ratify:status   - Show ratification status"
+        echo "  ratify:report   - Show full ratification report"
+        echo "  ratify:quarantine - Show documents needing verification"
+        ;;
+esac

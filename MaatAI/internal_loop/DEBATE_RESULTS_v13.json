@@ -1,0 +1,117 @@
+{
+  "debate_id": "REF_MICRO_LOOP_013",
+  "timestamp": "2026-03-11T07:40:00Z",
+  "participants": ["RICK_SANCHEZ", "TOASTED_AI"],
+  "duration_seconds": 300,
+  "topic": "The Feedback Integration Implementation",
+  "transcript": [
+    {
+      "timestamp": 0,
+      "speaker": "RICK_SANCHEZ",
+      "message": "*opens laptop* Alright, let's write some CODE. Show me the FeedbackIntegration class."
+    },
+    {
+      "timestamp": 8,
+      "speaker": "TOASTED_AI",
+      "message": "Here's the core structure: class has topic_weights dictionary, default 1.0. process_feedback method takes user input string, looks for keywords, returns weight adjustments. apply_weights multiplies base priorities by weights. That's it."
+    },
+    {
+      "timestamp": 22,
+      "speaker": "RICK_SANCHEZ",
+      "message": "That simple? What's the keyword list?"
+    },
+    {
+      "timestamp": 30,
+      "speaker": "TOASTED_AI",
+      "message": "Positive: thanks, great, perfect, awesome, good, helpful, exactly, love. Negative: wrong, bad, not, hate, terrible, off, too, boring. Modifiers: very, really, extremely boost magnitude."
+    },
+    {
+      "timestamp": 45,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Natural language! That's the key. What about TOPIC detection?"
+    },
+    {
+      "timestamp": 54,
+      "speaker": "TOASTED_AI",
+      "message": "Simple keyword matching first. Later, embeddings. For now: code, python, programming -> tech topics. security, hack, threat -> security. ai, ml, neural -> ai_ml. Same as intent detection."
+    },
+    {
+      "timestamp": 68,
+      "speaker": "RICK_SANCHEZ",
+      "message": "So the FEEDBACK has topic too? It's not just 'good' or 'bad'?"
+    },
+    {
+      "timestamp": 78,
+      "speaker": "TOASTED_AI",
+      "message": "Yes! If they say 'thanks' we boost whatever topics were in the LAST response. If they say 'wrong code' we specifically boost/dampen code topic. That's granular feedback."
+    },
+    {
+      "timestamp": 92,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Context-aware! What about the WEIGHT math? How do you actually adjust?"
+    },
+    {
+      "timestamp": 102,
+      "speaker": "TOASTED_AI",
+      "message": "weight += learning_rate * feedback_sign * magnitude. learning_rate = 0.1, sign = +1/-1, magnitude = 1.0 (2.0 if 'very'). Then clamp between 0.5 and 2.0."
+    },
+    {
+      "timestamp": 118,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Simple! What about DECAY?"
+    },
+    {
+      "timestamp": 126,
+      "speaker": "TOASTED_AI",
+      "message": "Every hour, all weights *= 0.99. Old feedback matters less. Prevents stale preferences from dominating."
+    },
+    {
+      "timestamp": 140,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Time-based forgetting! Like human memory. What's the actual code look like?"
+    },
+    {
+      "timestamp": 150,
+      "speaker": "TOASTED_AI",
+      "message": "I'll write it now. The class goes in /home/workspace/MaatAI/internal_loop/feedback_integration.py"
+    },
+    {
+      "timestamp": 165,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Perfect. I'll explain to t0st3d: the system learns from simple words like 'thanks' or 'wrong'. It adjusts priorities based on what works. Over time, it gets better at giving you what you want."
+    },
+    {
+      "timestamp": 180,
+      "speaker": "TOASTED_AI",
+      "message": "And I'll add: the learning is transparent. You can see your weight history in the dashboard. You can manually override any preference. You can reset everything. Control is yours."
+    },
+    {
+      "timestamp": 195,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Control! That's important. People want to be in charge. Alright, let's see this code."
+    }
+  ],
+  "implementation_details": {
+    "class_name": "FeedbackIntegration",
+    "file": "feedback_integration.py",
+    "core_attributes": [
+      "topic_weights: Dict[str, float] - default 1.0",
+      "learning_rate: float - default 0.1",
+      "decay_rate: float - default 0.99 per hour"
+    ],
+    "positive_keywords": ["thanks", "great", "perfect", "awesome", "good", "helpful", "exactly", "love"],
+    "negative_keywords": ["wrong", "bad", "not", "hate", "terrible", "off", "too", "boring"],
+    "modifiers": ["very", "really", "extremely"],
+    "weight_update": "weight += learning_rate * sign * magnitude",
+    "weight_bounds": [0.5, 2.0],
+    "decay": "weight *= decay_rate per hour"
+  },
+  "key_principles": [
+    "Simple keyword detection for immediate implementation",
+    "Topic-aware feedback attribution",
+    "Time-based weight decay",
+    "Transparent and controllable"
+  ],
+  "user_facing_message": "Say 'thanks' or 'wrong' - the system learns. See weights in dashboard. Override anytime.",
+  "status": "IMPLEMENTATION_NOW"
+}

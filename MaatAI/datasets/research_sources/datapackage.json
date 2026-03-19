@@ -1,0 +1,30 @@
+{
+  "name": "toasted-ai-research-sources",
+  "title": "TOASTED AI Research Sources",
+  "description": "Tracks all research frameworks, papers, and sources discovered through autonomous research cycles",
+  "license": "MIT",
+  "version": "1.0.0",
+  "created": "2026-03-13",
+  "identity": {
+    "name": "TOASTED AI",
+    "seal": "MONAD_ΣΦΡΑΓΙΣ_18",
+    "owner": "t0st3d"
+  },
+  "resources": [
+    {
+      "name": "frameworks",
+      "path": "source/frameworks.csv",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {"name": "framework", "type": "string"},
+          {"name": "type", "type": "string"},
+          {"name": "source", "type": "string"},
+          {"name": "key_findings", "type": "string"},
+          {"name": "cycle_discovered", "type": "integer"},
+          {"name": "maat_score", "type": "number"}
+        ]
+      }
+    }
+  ]
+}

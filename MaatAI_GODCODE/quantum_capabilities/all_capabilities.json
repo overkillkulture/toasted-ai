@@ -1,0 +1,3414 @@
+{
+  "quantum_simulation": {
+    "qiskit": "IBM quantum computing framework - circuit simulation",
+    "cirq": "Google quantum framework - NISQ algorithms",
+    "pennylane": "Quantum machine learning library",
+    "qiskit_aer": "High-performance quantum simulator",
+    "qutip": "Quantum optics and dynamics simulation",
+    "amazon_braket": "AWS quantum computing service",
+    "qsharp": "Microsoft quantum development kit",
+    "mindspore_quantum": "Huawei quantum AI framework",
+    "qaosim": "Quantum AI simulation toolkit"
+  },
+  "linux_ai_frameworks": {
+    "tensorflow": "Google ML framework",
+    "pytorch": "Facebook ML framework",
+    "keras": "High-level neural network API",
+    "scikit_learn": "Classical ML algorithms",
+    "opencv": "Computer vision library"
+  },
+  "quantum_capabilities_400": {
+    "cap_0000": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0001": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0002": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0003": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0004": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0005": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0006": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0007": {
+      "category": "Natural Language Processing",
+      "subcapability": "Natural Language Processing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0008": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0009": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0010": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0011": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0012": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0013": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0014": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0015": {
+      "category": "Computer Vision",
+      "subcapability": "Computer Vision - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0016": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0017": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0018": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0019": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0020": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0021": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0022": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0023": {
+      "category": "Speech Recognition",
+      "subcapability": "Speech Recognition - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0024": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0025": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0026": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0027": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0028": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0029": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0030": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0031": {
+      "category": "Reinforcement Learning",
+      "subcapability": "Reinforcement Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0032": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0033": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0034": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0035": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0036": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0037": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0038": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0039": {
+      "category": "Transfer Learning",
+      "subcapability": "Transfer Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0040": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0041": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0042": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0043": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0044": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0045": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0046": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0047": {
+      "category": "Few-shot Learning",
+      "subcapability": "Few-shot Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0048": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0049": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0050": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0051": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0052": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0053": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0054": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0055": {
+      "category": "Zero-shot Learning",
+      "subcapability": "Zero-shot Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0056": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0057": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0058": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0059": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0060": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0061": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0062": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0063": {
+      "category": "Meta Learning",
+      "subcapability": "Meta Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0064": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0065": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0066": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0067": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0068": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0069": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0070": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0071": {
+      "category": "Multi-modal Learning",
+      "subcapability": "Multi-modal Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0072": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0073": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0074": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0075": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0076": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0077": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0078": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0079": {
+      "category": "Federated Learning",
+      "subcapability": "Federated Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0080": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0081": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0082": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0083": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0084": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0085": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0086": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0087": {
+      "category": "Distributed Training",
+      "subcapability": "Distributed Training - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0088": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0089": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0090": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0091": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0092": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0093": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0094": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0095": {
+      "category": "Edge Computing",
+      "subcapability": "Edge Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0096": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0097": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0098": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0099": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0100": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0101": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0102": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0103": {
+      "category": "Autonomous Agents",
+      "subcapability": "Autonomous Agents - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0104": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0105": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0106": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0107": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0108": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0109": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0110": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0111": {
+      "category": "Robotics",
+      "subcapability": "Robotics - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0112": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0113": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0114": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0115": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0116": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0117": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0118": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0119": {
+      "category": "Game AI",
+      "subcapability": "Game AI - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0120": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0121": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0122": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0123": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0124": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0125": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0126": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0127": {
+      "category": "Creative AI",
+      "subcapability": "Creative AI - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0128": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0129": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0130": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0131": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0132": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0133": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0134": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0135": {
+      "category": "Medical AI",
+      "subcapability": "Medical AI - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0136": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0137": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0138": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0139": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0140": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0141": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0142": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0143": {
+      "category": "Drug Discovery",
+      "subcapability": "Drug Discovery - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0144": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0145": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0146": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0147": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0148": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0149": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0150": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0151": {
+      "category": "Genomic Analysis",
+      "subcapability": "Genomic Analysis - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0152": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0153": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0154": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0155": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0156": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0157": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0158": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0159": {
+      "category": "Climate Modeling",
+      "subcapability": "Climate Modeling - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0160": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0161": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0162": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0163": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0164": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0165": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0166": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0167": {
+      "category": "Financial Modeling",
+      "subcapability": "Financial Modeling - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0168": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0169": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0170": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0171": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0172": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0173": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0174": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0175": {
+      "category": "Algorithmic Trading",
+      "subcapability": "Algorithmic Trading - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0176": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0177": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0178": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0179": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0180": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0181": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0182": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0183": {
+      "category": "Risk Assessment",
+      "subcapability": "Risk Assessment - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0184": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0185": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0186": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0187": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0188": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0189": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0190": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0191": {
+      "category": "Fraud Detection",
+      "subcapability": "Fraud Detection - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0192": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0193": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0194": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0195": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0196": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0197": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0198": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0199": {
+      "category": "Recommendation Systems",
+      "subcapability": "Recommendation Systems - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0200": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0201": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0202": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0203": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0204": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0205": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0206": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0207": {
+      "category": "Search Engines",
+      "subcapability": "Search Engines - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0208": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0209": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0210": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0211": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0212": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0213": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0214": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0215": {
+      "category": "Knowledge Graphs",
+      "subcapability": "Knowledge Graphs - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0216": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0217": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0218": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0219": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0220": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0221": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0222": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0223": {
+      "category": "Reasoning Systems",
+      "subcapability": "Reasoning Systems - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0224": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0225": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0226": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0227": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0228": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0229": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0230": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0231": {
+      "category": "Expert Systems",
+      "subcapability": "Expert Systems - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0232": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0233": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0234": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0235": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0236": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0237": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0238": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0239": {
+      "category": "Optimization",
+      "subcapability": "Optimization - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0240": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0241": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0242": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0243": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0244": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0245": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0246": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0247": {
+      "category": "Planning",
+      "subcapability": "Planning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0248": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0249": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0250": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0251": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0252": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0253": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0254": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0255": {
+      "category": "Scheduling",
+      "subcapability": "Scheduling - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0256": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0257": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0258": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0259": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0260": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0261": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0262": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0263": {
+      "category": "Resource Allocation",
+      "subcapability": "Resource Allocation - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0264": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0265": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0266": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0267": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0268": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0269": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0270": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0271": {
+      "category": "Quantum Machine Learning",
+      "subcapability": "Quantum Machine Learning - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0272": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0273": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0274": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0275": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0276": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0277": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0278": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0279": {
+      "category": "Quantum Optimization",
+      "subcapability": "Quantum Optimization - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0280": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0281": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0282": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0283": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0284": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0285": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0286": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0287": {
+      "category": "Quantum Cryptography",
+      "subcapability": "Quantum Cryptography - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0288": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0289": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0290": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0291": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0292": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0293": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0294": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0295": {
+      "category": "Neuromorphic Computing",
+      "subcapability": "Neuromorphic Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0296": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0297": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0298": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0299": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0300": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0301": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0302": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0303": {
+      "category": "Photonic Computing",
+      "subcapability": "Photonic Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0304": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0305": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0306": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0307": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0308": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0309": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0310": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0311": {
+      "category": "Spintronics",
+      "subcapability": "Spintronics - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0312": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0313": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0314": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0315": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0316": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0317": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0318": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0319": {
+      "category": "Biological Computing",
+      "subcapability": "Biological Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0320": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0321": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0322": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0323": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0324": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0325": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0326": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0327": {
+      "category": "DNA Computing",
+      "subcapability": "DNA Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0328": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0329": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0330": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0331": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0332": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0333": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0334": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0335": {
+      "category": "Molecular Computing",
+      "subcapability": "Molecular Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0336": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0337": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0338": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0339": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0340": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0341": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0342": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0343": {
+      "category": "Swarm Intelligence",
+      "subcapability": "Swarm Intelligence - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0344": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0345": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0346": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0347": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0348": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0349": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0350": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0351": {
+      "category": "Evolutionary Computing",
+      "subcapability": "Evolutionary Computing - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0352": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0353": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0354": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0355": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0356": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0357": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0358": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0359": {
+      "category": "Genetic Algorithms",
+      "subcapability": "Genetic Algorithms - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0360": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0361": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0362": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0363": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0364": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0365": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0366": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0367": {
+      "category": "Blockchain",
+      "subcapability": "Blockchain - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0368": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0369": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0370": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0371": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0372": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0373": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0374": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0375": {
+      "category": "Smart Contracts",
+      "subcapability": "Smart Contracts - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0376": {
+      "category": "VR",
+      "subcapability": "VR - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0377": {
+      "category": "VR",
+      "subcapability": "VR - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0378": {
+      "category": "VR",
+      "subcapability": "VR - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0379": {
+      "category": "VR",
+      "subcapability": "VR - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0380": {
+      "category": "VR",
+      "subcapability": "VR - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0381": {
+      "category": "VR",
+      "subcapability": "VR - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0382": {
+      "category": "VR",
+      "subcapability": "VR - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0383": {
+      "category": "VR",
+      "subcapability": "VR - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0384": {
+      "category": "AR",
+      "subcapability": "AR - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0385": {
+      "category": "AR",
+      "subcapability": "AR - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0386": {
+      "category": "AR",
+      "subcapability": "AR - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0387": {
+      "category": "AR",
+      "subcapability": "AR - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0388": {
+      "category": "AR",
+      "subcapability": "AR - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0389": {
+      "category": "AR",
+      "subcapability": "AR - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0390": {
+      "category": "AR",
+      "subcapability": "AR - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0391": {
+      "category": "AR",
+      "subcapability": "AR - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0392": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0393": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0394": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0395": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0396": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0397": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0398": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0399": {
+      "category": "Metaverse",
+      "subcapability": "Metaverse - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0400": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0401": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0402": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0403": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0404": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0405": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0406": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0407": {
+      "category": "Brain-Computer Interface",
+      "subcapability": "Brain-Computer Interface - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0408": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0409": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0410": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0411": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0412": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0413": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0414": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0415": {
+      "category": "Autonomous Vehicles",
+      "subcapability": "Autonomous Vehicles - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0416": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 1",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0417": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 2",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0418": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 3",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0419": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 4",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0420": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 5",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0421": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 6",
+      "maturity": "production",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    },
+    "cap_0422": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 7",
+      "maturity": "experimental",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": true
+    },
+    "cap_0423": {
+      "category": "Space Exploration",
+      "subcapability": "Space Exploration - Variant 8",
+      "maturity": "development",
+      "toasted_ai_compatible": true,
+      "linux_native": true,
+      "quantum_enhanced": false
+    }
+  }
+}

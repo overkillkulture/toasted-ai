@@ -1,0 +1,56 @@
+{
+  "documents": {
+    "index": "document_id",
+    "fields": [
+      "source",
+      "agency",
+      "date_classified",
+      "date_released",
+      "title",
+      "classification",
+      "keywords",
+      "entities",
+      "content_hash"
+    ]
+  },
+  "entities": {
+    "index": "entity_id",
+    "fields": [
+      "name",
+      "type",
+      "documents",
+      "first_mention",
+      "last_mention"
+    ]
+  },
+  "events": {
+    "index": "event_id",
+    "fields": [
+      "date",
+      "description",
+      "entities_involved",
+      "locations",
+      "significance"
+    ]
+  },
+  "relationships": {
+    "index": "rel_id",
+    "fields": [
+      "source_entity",
+      "target_entity",
+      "relationship_type",
+      "confidence",
+      "document_id"
+    ]
+  },
+  "patterns": {
+    "index": "pattern_id",
+    "fields": [
+      "pattern_type",
+      "description",
+      "occurrences",
+      "first_seen",
+      "last_seen"
+    ]
+  }
+}

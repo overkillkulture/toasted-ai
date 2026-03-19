@@ -1,0 +1,153 @@
+{
+  "timestamp": "2026-02-23T16:34:15.274552",
+  "total_tasks": 22,
+  "by_type": {
+    "empty_implementation": 9,
+    "missing_file": 5,
+    "test_gap": 7,
+    "integration_gap": 1
+  },
+  "tasks": [
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/swarm/neural_core/self_awareness.py",
+      "line": 377,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/monitor/internet_monitor.py",
+      "line": 65,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/fallback/fallback_internet.py",
+      "line": 125,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 80,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 160,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 172,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 187,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 217,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "empty_implementation",
+      "file": "/home/workspace/MaatAI/network_core/self_aware/host_awareness.py",
+      "line": 265,
+      "content": "pass",
+      "priority": "medium"
+    },
+    {
+      "type": "missing_file",
+      "referenced_in": "/home/workspace/MaatAI/security/authorization.py",
+      "missing_path": "/home/workspace/MaatAI/security/access_log.jsonl",
+      "priority": "low"
+    },
+    {
+      "type": "missing_file",
+      "referenced_in": "/home/workspace/MaatAI/security/red_team.py",
+      "missing_path": "/home/workspace/MaatAI/security/red_team_report.jsonl",
+      "priority": "low"
+    },
+    {
+      "type": "missing_file",
+      "referenced_in": "/home/workspace/MaatAI/security/blue_team.py",
+      "missing_path": "/home/workspace/MaatAI/security/blue_team_incidents.jsonl",
+      "priority": "low"
+    },
+    {
+      "type": "missing_file",
+      "referenced_in": "/home/workspace/MaatAI/network_core/autonomous_network.py",
+      "missing_path": "/home/workspace/MaatAI/network_core/network_log.jsonl",
+      "priority": "low"
+    },
+    {
+      "type": "missing_file",
+      "referenced_in": "/home/workspace/MaatAI/network_core/autonomous_network.py",
+      "missing_path": "/home/workspace/MaatAI/network_core/autonomous_status.json",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/test_demo.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/test_autonomous_network.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/memory_compression/test_compression.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/backups/backup_d01601a6/test_demo.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/backups/backup_24c85386/test_demo.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/backups/backup_d708d140/test_demo.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "test_gap",
+      "file": "/home/workspace/MaatAI/backups/backup_f97b5631/test_demo.py",
+      "issue": "Test file has no assertions",
+      "priority": "low"
+    },
+    {
+      "type": "integration_gap",
+      "skill": "web-scraper",
+      "issue": "Skill not integrated into MaatAI",
+      "priority": "medium"
+    }
+  ]
+}

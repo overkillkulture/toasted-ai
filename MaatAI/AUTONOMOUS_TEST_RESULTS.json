@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-02-23T15:20:00Z",
+  "tests": [
+    {
+      "name": "internet_monitor",
+      "status": "EXPECTED_FAIL",
+      "details": {
+        "timestamp": "2026-02-23T15:21:55.380455",
+        "target": "8.8.8.8",
+        "success": false,
+        "latency_ms": 0.0,
+        "status": "disconnected",
+        "output_preview": "Ping error: [Errno 2] No such file or directory: 'ping'"
+      }
+    },
+    {
+      "name": "host_awareness",
+      "status": "PASS",
+      "details": {
+        "platform": "Linux",
+        "hostname": "modal",
+        "is_container": false
+      }
+    },
+    {
+      "name": "fallback_system",
+      "status": "PASS",
+      "details": {
+        "methods_count": 9,
+        "methods": [
+          "_method_renew_dhcp",
+          "_method_restart_network_manager",
+          "_method_reset_dns",
+          "_method_try_alternate_dns",
+          "_method_wifi_reconnect",
+          "_method_ethernet_reconnect",
+          "_method_create_hotspot",
+          "_method_usb_tethering",
+          "_method_bluetooth_tethering"
+        ]
+      }
+    },
+    {
+      "name": "integration_catalog",
+      "status": "PASS",
+      "details": {
+        "total_integrations": 200,
+        "categories": [
+          "network_virtualization",
+          "internet_access",
+          "cloud_providers",
+          "dns_services",
+          "load_balancers",
+          "container_networking",
+          "monitoring_tools",
+          "security_tools",
+          "api_integrations",
+          "ai_services",
+          "database_integrations",
+          "file_storage",
+          "communication",
+          "development_tools",
+          "authentication",
+          "orchestration",
+          "network_protocols",
+          "observability",
+          "edge_computing",
+          "special_networks"
+        ]
+      }
+    }
+  ]
+}

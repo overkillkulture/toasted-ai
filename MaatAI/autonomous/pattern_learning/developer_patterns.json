@@ -1,0 +1,230 @@
+{
+  "styles": {
+    "naming": {
+      "preferred": "snake_case",
+      "snake_case_count": 587,
+      "camel_case_count": 0,
+      "PascalCase_count": 0,
+      "constants_style": "UPPER_SNAKE_CASE",
+      "private_prefix": "_",
+      "dunder_prefix": "__"
+    },
+    "structure": {
+      "root": "MaatAI",
+      "subdirectories": [
+        "chat",
+        "divine_covenant",
+        "emergency",
+        "fractal_core",
+        "internal_loop",
+        "network",
+        "psychological_auth",
+        "quantum_simulation",
+        "quantum_v4",
+        "self_development",
+        "ufo_disclosure"
+      ],
+      "file_organization": "by_function"
+    },
+    "comments": {
+      "style": "inline_hash",
+      "docstring_style": "triple_double_quote",
+      "use_block_comments": false,
+      "avg_length": 28.36563071297989
+    },
+    "imports": {
+      "order": [
+        "stdlib",
+        "third_party",
+        "local"
+      ],
+      "stdlib_count": 168,
+      "third_party_count": 121,
+      "local_count": 8,
+      "style": "grouped_by_source"
+    },
+    "functions": {
+      "common_names": [
+        [
+          "__init__",
+          52
+        ],
+        [
+          "get_status",
+          6
+        ],
+        [
+          "to_dict",
+          4
+        ],
+        [
+          "process",
+          4
+        ],
+        [
+          "main",
+          4
+        ],
+        [
+          "implement_improvement",
+          3
+        ],
+        [
+          "_detect_threats",
+          2
+        ],
+        [
+          "get_system_status",
+          2
+        ],
+        [
+          "_init_subsystems",
+          2
+        ],
+        [
+          "run",
+          2
+        ]
+      ],
+      "common_args": [
+        [
+          "self",
+          295
+        ],
+        [
+          "key",
+          12
+        ],
+        [
+          "context",
+          11
+        ],
+        [
+          "topic",
+          10
+        ],
+        [
+          "task",
+          9
+        ],
+        [
+          "cls",
+          8
+        ],
+        [
+          "command",
+          8
+        ],
+        [
+          "conversation_id",
+          7
+        ],
+        [
+          "data",
+          6
+        ],
+        [
+          "cycle",
+          6
+        ]
+      ],
+      "docstring_rate": 0.724233983286908,
+      "common_prefixes": [
+        "_",
+        "get_",
+        "set_",
+        "check_",
+        "process_"
+      ]
+    },
+    "classes": {
+      "common_names": [
+        [
+          "ContinuousMonitor",
+          2
+        ],
+        [
+          "UFODisclosureTracker",
+          2
+        ],
+        [
+          "InternalDialogueLoop",
+          2
+        ],
+        [
+          "ProjectSnapshot",
+          1
+        ],
+        [
+          "ThreatAlert",
+          1
+        ],
+        [
+          "SelfAwareProjectMonitor",
+          1
+        ],
+        [
+          "ContextAnchor",
+          1
+        ],
+        [
+          "ContextAnchorSystem",
+          1
+        ],
+        [
+          "ToastedAIHub",
+          1
+        ],
+        [
+          "ToastedAIRuntime",
+          1
+        ]
+      ],
+      "common_methods": [
+        [
+          "__init__",
+          52
+        ],
+        [
+          "get_status",
+          6
+        ],
+        [
+          "to_dict",
+          4
+        ],
+        [
+          "process",
+          3
+        ],
+        [
+          "_detect_threats",
+          2
+        ],
+        [
+          "get_system_status",
+          2
+        ],
+        [
+          "_init_subsystems",
+          2
+        ],
+        [
+          "run",
+          2
+        ],
+        [
+          "_generate_report",
+          2
+        ],
+        [
+          "authenticate",
+          2
+        ]
+      ],
+      "use_init": true,
+      "use_str": false
+    }
+  },
+  "last_updated": "2026-03-09T02:19:53.199606"
+}

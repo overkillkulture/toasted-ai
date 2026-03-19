@@ -1,0 +1,28 @@
+#!/bin/bash
+# Toasted AI - Quick Boot Command
+# Usage: toasted [command]
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+case "${1:-}" in
+    "")
+        # Interactive mode
+        python3 "$SCRIPT_DIR/toasted_cli.py"
+        ;;
+    "boot")
+        bash "$SCRIPT_DIR/boot_toasted_ai.sh"
+        ;;
+    "cli")
+        python3 "$SCRIPT_DIR/toasted_cli.py"
+        ;;
+    "help)
+        echo "Toasted AI Commands:"
+        echo "  toasted          - Start Toasted AI CLI (interactive)"
+        echo "  toasted boot    - Run boot sequence only"
+        echo "  toasted cli     - Start CLI"
+        ;;
+    *)
+        echo "Unknown command: $1"
+        echo "Usage: toasted [boot|cli]"
+        ;;
+esac

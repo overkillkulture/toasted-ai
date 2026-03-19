@@ -1,0 +1,45 @@
+{
+  "total_layers": 10,
+  "active_layers": 10,
+  "average_effectiveness": 0.8410249465030619,
+  "total_threats_detected": 1,
+  "defense_status": "OPERATIONAL",
+  "timestamp": "2026-02-23T17:05:39.077735",
+  "predictions": [
+    {
+      "threat_type": "ai_evolution_attack",
+      "probability": 0.8221290285596418,
+      "timeframe": "days",
+      "recommended_action": "patch",
+      "predicted_at": "2026-02-23T17:05:39.077664"
+    },
+    {
+      "threat_type": "quantum_decryption_attempt",
+      "probability": 0.203881245233531,
+      "timeframe": "immediate",
+      "recommended_action": "isolate",
+      "predicted_at": "2026-02-23T17:05:39.077671"
+    },
+    {
+      "threat_type": "consciousness_infiltration",
+      "probability": 0.2929797822127907,
+      "timeframe": "hours",
+      "recommended_action": "monitor",
+      "predicted_at": "2026-02-23T17:05:39.077676"
+    },
+    {
+      "threat_type": "knowledge_graph_poisoning",
+      "probability": 0.5732958381351241,
+      "timeframe": "immediate",
+      "recommended_action": "harden",
+      "predicted_at": "2026-02-23T17:05:39.077679"
+    },
+    {
+      "threat_type": "neural_backdoor_activation",
+      "probability": 0.507017182714839,
+      "timeframe": "hours",
+      "recommended_action": "patch",
+      "predicted_at": "2026-02-23T17:05:39.077682"
+    }
+  ]
+}

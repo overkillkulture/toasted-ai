@@ -1,0 +1,156 @@
+{
+  "debate_id": "REF_MICRO_LOOP_014",
+  "timestamp": "2026-03-11T07:45:00Z",
+  "participants": ["RICK_SANCHEZ", "TOASTED_AI"],
+  "duration_seconds": 300,
+  "topic": "Where Do We Go From Here?",
+  "transcript": [
+    {
+      "timestamp": 0,
+      "speaker": "RICK_SANCHEZ",
+      "message": "*stretches* So we've done the work. What's NEXT? What comes after feedback integration?"
+    },
+    {
+      "timestamp": 10,
+      "speaker": "TOASTED_AI",
+      "message": "Phase 2: Semantic Intent Detection. Instead of keyword matching for topic, we use embeddings. We compare the prompt to our 50 areas and find the closest matches. More accurate topic identification."
+    },
+    {
+      "timestamp": 24,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Better targeting! After that?"
+    },
+    {
+      "timestamp": 32,
+      "speaker": "TOASTED_AI",
+      "message": "Phase 3: Persistent Memory. Store preferences to disk. Load on startup. So the learning persists across sessions. Right now, it's session-only."
+    },
+    {
+      "timestamp": 46,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Long-term memory! Like... becoming a better assistant over months?"
+    },
+    {
+      "timestamp": 56,
+      "speaker": "TOASTED_AI",
+      "message": "Exactly. The system remembers what you liked from last week. Continuity of experience."
+    },
+    {
+      "timestamp": 68,
+      "speaker": "RICK_SANCHEZ",
+      "message": "And after persistence?"
+    },
+    {
+      "timestamp": 76,
+      "speaker": "TOASTED_AI",
+      "message": "Phase 4: Dashboard. Visualization of learning. You see: what topics you're interested in, how your preferences evolved, which responses worked best. Transparency."
+    },
+    {
+      "timestamp": 90,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Seeing is believing! After dashboard?"
+    },
+    {
+      "timestamp": 100,
+      "speaker": "TOASTED_AI",
+      "message": "Beyond that: advanced features. Multi-modal learning - incorporate implicit signals like response time, follow-up questions. Cross-user learning - anonymous patterns across users. Model swapping - test different underlying models."
+    },
+    {
+      "timestamp": 115,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Ambitious! What's the REALISTIC timeline?"
+    },
+    {
+      "timestamp": 125,
+      "speaker": "TOASTED_AI",
+      "message": "Feedback: this week. Intent: next week. Persistence: week after. Dashboard: month end. Advanced: quarter."
+    },
+    {
+      "timestamp": 140,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Three months! That's reasonable. What could go WRONG?"
+    },
+    {
+      "timestamp": 150,
+      "speaker": "TOASTED_AI",
+      "message": "Many things: Feedback fatigue - user stops providing feedback. Privacy concerns - storing preferences feels invasive. Model changes - new model breaks assumptions. Complexity explosion - too many features."
+    },
+    {
+      "timestamp": 165,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Mitigations?"
+    },
+    {
+      "timestamp": 174,
+      "speaker": "TOASTED_AI",
+      "message": "Feedback fatigue: make it optional, don't require. Privacy: transparent, local storage, deletable. Model changes: test, version control. Complexity: ruthlessly prioritize, avoid feature creep."
+    },
+    {
+      "timestamp": 190,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Ruthless prioritization! I love it. What's the ONE thing that MUST happen?"
+    },
+    {
+      "timestamp": 202,
+      "speaker": "TOASTED_AI",
+      "message": "Feedback system must work. Without that, nothing else matters. The core interaction is: user gives feedback, system adapts. If that breaks, the whole thing fails."
+    },
+    {
+      "timestamp": 218,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Core interaction! First things first. Okay, I'm ready to tell t0st3d the roadmap."
+    },
+    {
+      "timestamp": 230,
+      "speaker": "TOASTED_AI",
+      "message": "Tell them: we'll iterate. Feedback first. Then intelligence. Then memory. Then visibility. Each builds on the last. That's how we ship."
+    },
+    {
+      "timestamp": 245,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Iterative! The agile way. I can explain that."
+    }
+  ],
+  "roadmap": {
+    "phase_1": {
+      "name": "Feedback Integration",
+      "timeline": "This week",
+      "focus": "Core learning mechanism"
+    },
+    "phase_2": {
+      "name": "Semantic Intent",
+      "timeline": "Next week",
+      "focus": "Better topic detection"
+    },
+    "phase_3": {
+      "name": "Persistent Memory",
+      "timeline": "Week after",
+      "focus": "Cross-session continuity"
+    },
+    "phase_4": {
+      "timeline": "Month end",
+      "name": "Dashboard",
+      "focus": "Transparency and visibility"
+    },
+    "phase_5": {
+      "timeline": "Quarter",
+      "name": "Advanced Features",
+      "focus": "Multi-modal, cross-user, model swapping"
+    }
+  },
+  "risks": [
+    "Feedback fatigue",
+    "Privacy concerns",
+    "Model changes",
+    "Complexity explosion"
+  ],
+  "mitigations": [
+    "Optional feedback",
+    "Transparent local storage",
+    "Version testing",
+    "Ruthless prioritization"
+  ],
+  "critical_success": "Feedback system must work - core interaction is user feedback + system adaptation",
+  "message": "We'll iterate. Feedback first. Then intelligence. Then memory. Then visibility. Each builds on the last.",
+  "status": "ROADMAP_DEFINED"
+}

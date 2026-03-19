@@ -1,0 +1,41 @@
+{
+  "chains": [
+    {
+      "claim_id": "3d29cd188e16",
+      "claim": "Machine learning models can achieve superhuman performance on specific tasks",
+      "verification_count": 2,
+      "contradiction_count": 0,
+      "overall_quality": 4.75,
+      "status": "verified",
+      "created_at": "2026-03-19T07:07:13.069657",
+      "last_verified": "2026-03-19T07:07:13.070697",
+      "sources": [
+        {
+          "source_id": "691f09bdd877",
+          "source_type": "academic",
+          "url": "https://nature.com/articles/nature16961",
+          "citation": "Silver et al., 2016. Mastering the game of Go with deep neural networks",
+          "credibility_score": 0.95,
+          "timestamp": "2026-03-19T07:07:13.069717",
+          "quality": 5,
+          "verification_method": "peer_review"
+        },
+        {
+          "source_id": "983560ec1646",
+          "source_type": "academic",
+          "url": "https://arxiv.org/abs/2005.14165",
+          "citation": "Brown et al., 2020. Language Models are Few-Shot Learners",
+          "credibility_score": 0.95,
+          "timestamp": "2026-03-19T07:07:13.070676",
+          "quality": 5,
+          "verification_method": "peer_review"
+        }
+      ]
+    }
+  ],
+  "verified_claims": [
+    "3d29cd188e16"
+  ],
+  "rejected_claims": [],
+  "timestamp": "2026-03-19T07:07:13.070964"
+}

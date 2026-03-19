@@ -1,0 +1,12 @@
+{
+  "name": "quantum-pipeline-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "bun run api.ts",
+    "dev": "bun run --watch api.ts"
+  },
+  "dependencies": {
+    "hono": "^4.0.0"
+  }
+}

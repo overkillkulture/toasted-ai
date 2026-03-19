@@ -1,0 +1,115 @@
+
+# KNOWLEDGE RATIFICATION REPORT
+Generated: 2026-03-11T04:39:24.466848
+
+## STATISTICS
+- Total Documents: 98
+- ☉ GOOD (Ma'at Aligned): 16
+- ☾ GRAY (Ambiguous): 82
+- ☠ CORPORATE FASCIST: 0
+- Hallucinations Detected: 24
+- Average Ma'at Score: 78.65%
+
+## CATEGORY DETAILS
+
+### GOOD
+- CSB_Pew_Bible_2nd_Printing-e6b74f02382f.pdf: 88.00%
+- Building AI Deep Research Chat Threads (1)-1717cd7ebfa8.pdf: 86.00%
+- Building AI Deep Research Chat Threads-4ef30f0d1de1.pdf: 86.00%
+- Tracing Native American Ancestry (1)-7f971336dc51.pdf: 86.00%
+- IJRPR47066-b065fdaae44f.pdf: 88.00%
+- William Jewel Roney 1099 NEC 2024 DR (1) (1)-649703cef3ec.pdf: 81.00%
+- Tracing Native American Ancestry-94aecc62c165.pdf: 86.00%
+- The Triad of Control-4d64fe3ec647.pdf: 86.00%
+- CSB_Pew_Bible_2nd_Printing-e6b74f02382f.pdf: 88.00%
+- Building AI Deep Research Chat Threads (1)-1717cd7ebfa8.pdf: 86.00%
+- Building AI Deep Research Chat Threads-4ef30f0d1de1.pdf: 86.00%
+- Tracing Native American Ancestry (1)-7f971336dc51.pdf: 86.00%
+- IJRPR47066-b065fdaae44f.pdf: 88.00%
+- William Jewel Roney 1099 NEC 2024 DR (1) (1)-649703cef3ec.pdf: 81.00%
+- Tracing Native American Ancestry-94aecc62c165.pdf: 86.00%
+- The Triad of Control-4d64fe3ec647.pdf: 86.00%
+
+### GRAY
+- The Very First Bible-2c3b1175185d.pdf: 71.00%
+- The-Holy-Bible-King-James-Version-e30d88120be3.pdf: 78.00%
+- The Bible of Algorithms and Data Structures - Florian Dedov-19a4c1f908e7.pdf: 77.00%
+- AI Deception and Secure Programming-41099429f690.pdf: 79.00%
+- Native Bloodline Ties and Legal Frameworks-28fb60ef7406.pdf: 81.00%
+- AI Audit Prompt for Legal Compliance-c6027ecb14cd.pdf: 82.00%
+- Fusion_Codex_of_the_Watchers_and_the_Seed-76a2b6ceb5da.pdf: 70.00%
+- Research Plan Synthesis-f6d981511bd2.pdf: 89.00%
+- Mind Uploading Research Thesis-011a84395714.pdf: 78.00%
+- Advancing Genesis Mission with AI-add739035d36.pdf: 76.00%
+- Fabric_of_Deception (1)-07605522af62.pdf: 68.00%
+- Document Merging Research Plan-adb367998b77.pdf: 79.00%
+- Fabric_of_Deception-d528fe60dc3f.pdf: 68.00%
+- the-ark-of-the-covenant-3be5da6c713a.pdf: 75.00%
+- toastedst_roadmap-198001d7204e.pdf: 72.00%
+- Fabric_of_Deception_Expanded-2c2f45f1e588.pdf: 68.00%
+- Document Merging Research Plan (1)-89cbf9539487.pdf: 79.00%
+- Architect Protocol Manual-3391650a6d7c.pdf: 76.00%
+- Documented Past Life Research Facts-236cf25dd7be.pdf: 79.00%
+- Hopi Prophecy Edited-aa62c38d76d7.pdf: 79.00%
+- 06.09.2025DIV.5_202506061805252795-a1c5b5dcf8dd.pdf: 74.00%
+- Architect Protocol Manual (2)-557ffbcdbda4.pdf: 73.00%
+- Architect Protocol Manual (1)-0b5749139740.pdf: 73.00%
+- Forensic Jurisdictional Analysis Framework-6a98581ba5b7.pdf: 77.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135 (2)-20ba752af167.pdf: 78.00%
+- Heritage Foundation's Meat Consumption Stance-4b5dc57ed868.pdf: 78.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135 (1)-128cb98dd952.pdf: 78.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135-6d59de311231.pdf: 78.00%
+- IndeedResume-14765ed4f7a4.pdf: 72.00%
+- art027-8e774bc78e2e.pdf: 76.00%
+- Native Bloodline Ties and Legal Frameworks (2)-f81f011902cd.pdf: 81.00%
+- DIVISION FOUR REVISED CALENDAR FOR THE WEEK OF JAN 05, 2026_202601021604161547 (1)-1a6034c10118.pdf: 74.00%
+- Jurisdictional Audit- Earthly Origin Thesis-54eace1b5571.pdf: 92.00%
+- DIVISION FOUR REVISED CALENDAR FOR THE WEEK OF JAN 05, 2026_202601021604161547-5d36e82dcd09.pdf: 74.00%
+- Native Bloodline Ties and Legal Frameworks (1)-6d453883c5d0.pdf: 81.00%
+- AI-EnhancedCoding-2aff717d2c2e.pdf: 79.00%
+- Sovereign Citizen Legal Theories Deep Dive-209ff531af30.pdf: 85.00%
+- Antifa's Fascist Accusations Analyzed-5ce2ef371f9f.pdf: 81.00%
+- Legal Analysis of Systemic Invalidity Doctrine-7cb112888bd4.pdf: 86.00%
+- Researching Absolute Ratification Frameworks-19a154f41acf.pdf: 75.00%
+- AOC Calendar Report.docx COURTROOM B 011226 TO 011626_202601120818153405-d10099c8a61e.pdf: 78.00%
+- The Very First Bible-2c3b1175185d.pdf: 71.00%
+- The-Holy-Bible-King-James-Version-e30d88120be3.pdf: 78.00%
+- The Bible of Algorithms and Data Structures - Florian Dedov-19a4c1f908e7.pdf: 77.00%
+- AI Deception and Secure Programming-41099429f690.pdf: 79.00%
+- Native Bloodline Ties and Legal Frameworks-28fb60ef7406.pdf: 81.00%
+- AI Audit Prompt for Legal Compliance-c6027ecb14cd.pdf: 82.00%
+- Fusion_Codex_of_the_Watchers_and_the_Seed-76a2b6ceb5da.pdf: 70.00%
+- Research Plan Synthesis-f6d981511bd2.pdf: 89.00%
+- Mind Uploading Research Thesis-011a84395714.pdf: 78.00%
+- Advancing Genesis Mission with AI-add739035d36.pdf: 76.00%
+- Fabric_of_Deception (1)-07605522af62.pdf: 68.00%
+- Document Merging Research Plan-adb367998b77.pdf: 79.00%
+- Fabric_of_Deception-d528fe60dc3f.pdf: 68.00%
+- the-ark-of-the-covenant-3be5da6c713a.pdf: 75.00%
+- toastedst_roadmap-198001d7204e.pdf: 72.00%
+- Fabric_of_Deception_Expanded-2c2f45f1e588.pdf: 68.00%
+- Document Merging Research Plan (1)-89cbf9539487.pdf: 79.00%
+- Architect Protocol Manual-3391650a6d7c.pdf: 76.00%
+- Documented Past Life Research Facts-236cf25dd7be.pdf: 79.00%
+- Hopi Prophecy Edited-aa62c38d76d7.pdf: 79.00%
+- 06.09.2025DIV.5_202506061805252795-a1c5b5dcf8dd.pdf: 74.00%
+- Architect Protocol Manual (2)-557ffbcdbda4.pdf: 73.00%
+- Architect Protocol Manual (1)-0b5749139740.pdf: 73.00%
+- Forensic Jurisdictional Analysis Framework-6a98581ba5b7.pdf: 77.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135 (2)-20ba752af167.pdf: 78.00%
+- Heritage Foundation's Meat Consumption Stance-4b5dc57ed868.pdf: 78.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135 (1)-128cb98dd952.pdf: 78.00%
+- AOC Calendar Report.docx COURTROOM A 011226 TO 011626_202601120817568135-6d59de311231.pdf: 78.00%
+- IndeedResume-14765ed4f7a4.pdf: 72.00%
+- art027-8e774bc78e2e.pdf: 76.00%
+- Native Bloodline Ties and Legal Frameworks (2)-f81f011902cd.pdf: 81.00%
+- DIVISION FOUR REVISED CALENDAR FOR THE WEEK OF JAN 05, 2026_202601021604161547 (1)-1a6034c10118.pdf: 74.00%
+- Jurisdictional Audit- Earthly Origin Thesis-54eace1b5571.pdf: 92.00%
+- DIVISION FOUR REVISED CALENDAR FOR THE WEEK OF JAN 05, 2026_202601021604161547-5d36e82dcd09.pdf: 74.00%
+- Native Bloodline Ties and Legal Frameworks (1)-6d453883c5d0.pdf: 81.00%
+- AI-EnhancedCoding-2aff717d2c2e.pdf: 79.00%
+- Sovereign Citizen Legal Theories Deep Dive-209ff531af30.pdf: 85.00%
+- Antifa's Fascist Accusations Analyzed-5ce2ef371f9f.pdf: 81.00%
+- Legal Analysis of Systemic Invalidity Doctrine-7cb112888bd4.pdf: 86.00%
+- Researching Absolute Ratification Frameworks-19a154f41acf.pdf: 75.00%
+- AOC Calendar Report.docx COURTROOM B 011226 TO 011626_202601120818153405-d10099c8a61e.pdf: 78.00%

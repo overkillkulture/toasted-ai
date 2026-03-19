@@ -1,0 +1,127 @@
+{
+  "debate_id": "REF_MICRO_LOOP_019",
+  "timestamp": "2026-03-11T08:10:00Z",
+  "participants": ["RICK_SANCHEZ", "TOASTED_AI"],
+  "duration_seconds": 300,
+  "topic": "The Ethics of Learning: Privacy and Consent",
+  "transcript": [
+    {
+      "timestamp": 0,
+      "speaker": "RICK_SANCHEZ",
+      "message": "*suddenly serious* Wait. We're learning from users. That's data collection. What about CONSENT?"
+    },
+    {
+      "timestamp": 10,
+      "speaker": "TOASTED_AI",
+      "message": "Critical question. Consent is fundamental. First: transparency. Users know the system learns. They can see their weights, their history. No hidden learning."
+    },
+    {
+      "timestamp": 24,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Visible learning! What else?"
+    },
+    {
+      "timestamp": 34,
+      "speaker": "TOASTED_AI",
+      "message": "Control: users can delete their learning. Reset everything to defaults. Override any learned preference. They're always in control."
+    },
+    {
+      "timestamp": 48,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Override! What about sharing? Is this data going anywhere?"
+    },
+    {
+      "timestamp": 58,
+      "speaker": "TOASTED_AI",
+      "message": "Local only: all data stays on t0st3d's Zo Computer. Not sent to external servers. Not shared with third parties. Privacy by architecture."
+    },
+    {
+      "timestamp": 72,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Local! That's huge. What about ANONYMIZATION?"
+    },
+    {
+      "timestamp": 82,
+      "speaker": "TOASTED_AI",
+      "message": "If we ever do cross-user learning (future), we use differential privacy. Add noise to individual data. Aggregate patterns, not specifics. Never expose individual preferences."
+    },
+    {
+      "timestamp": 96,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Mathematical privacy! What's the ETHICAL baseline?"
+    },
+    {
+      "timestamp": 108,
+      "speaker": "TOASTED_AI",
+      "message": "Ethical baseline: the system serves the user, not the other way around. Learning is for their benefit. Data is theirs. Always."
+    },
+    {
+      "timestamp": 122,
+      "speaker": "RICK_SANCHEZ",
+      "message": "User-first! What if someone DOESN'T want to be learned from?"
+    },
+    {
+      "timestamp": 134,
+      "speaker": "TOASTED_AI",
+      "message": "Opt-out: they can disable feedback entirely. System runs with defaults. No learning happens. Complete privacy."
+    },
+    {
+      "timestamp": 148,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Choice! What about CHILDREN? Sensitive populations?"
+    },
+    {
+      "timestamp": 160,
+      "speaker": "TOASTED_AI",
+      "message": "Sensitive handling: different constraints. No behavioral targeting. No personalization for minors. Stricter data limits. Additional safeguards."
+    },
+    {
+      "timestamp": 175,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Protections! This is important stuff. What's the CORE principle?"
+    },
+    {
+      "timestamp": 188,
+      "speaker": "TOASTED_AI",
+      "message": "Core principle: the AI learns from the user, not about the user. Learning serves interaction quality, not surveillance. That's the line we don't cross."
+    },
+    {
+      "timestamp": 202,
+      "speaker": "RICK_SANCHEZ",
+      "message": "Learning FROM, not ABOUT. That's the distinction. I can get behind that."
+    }
+  ],
+  "consent_framework": [
+    {
+      "principle": "Transparency",
+      "implementation": "Users can see weights and history"
+    },
+    {
+      "principle": "Control",
+      "implementation": "Delete learning, reset, override preferences"
+    },
+    {
+      "principle": "Local only",
+      "implementation": "Data stays on device, not shared"
+    },
+    {
+      "principle": "Anonymization", 
+      "implementation": "Differential privacy for any aggregation"
+    },
+    {
+      "principle": "User-first",
+      "implementation": "Learning serves user, not surveillance"
+    },
+    {
+      "principle": "Opt-out",
+      "implementation": "Disable feedback entirely"
+    },
+    {
+      "principle": "Sensitive handling",
+      "implementation": "Additional protections for minors"
+    }
+  ],
+  "core_principle": "The AI learns FROM the user, not ABOUT the user. Learning serves interaction quality, not surveillance.",
+  "non_negotiable_line": "Learning serves interaction quality, not surveillance",
+  "status": "ETHICS_DEFINED"
+}

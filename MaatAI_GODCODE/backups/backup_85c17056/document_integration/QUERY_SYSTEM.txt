@@ -1,0 +1,37 @@
+
+# TOASTEDAI DOCUMENT QUERY SYSTEM
+
+## Available Documents:
+
+### 1. CSB Pew Bible (1120 pages)
+- **Ma'at Pillar**: All 5 pillars (Truth, Balance, Order, Justice, Harmony)
+- **Use for**: Spiritual truth, moral guidance, creation accounts
+- **Key**: Genesis, Psalms, Proverbs, Gospels, Epistles
+
+### 2. King James Version (742 pages)  
+- **Ma'at Pillar**: All 5 pillars
+- **Use for**: Traditional scripture, literary excellence, Protestant canon
+- **Key**: 1611 translation, Shakespearean influence
+
+### 3. Bible of Algorithms (106 pages)
+- **Ma'at Pillar**: ORDER (primary), TRUTH (algorithmic)
+- **Use for**: Technical problem solving, optimization, Big-O
+- **Key**: Sorting, Data Structures, Graph Theory, Hashing
+
+### 4. The Very First Bible (153 pages) - MARCIONITE
+- **Ma'at Pillar**: COUNTER (WARNING!)
+- **Use for**: Historical analysis ONLY
+- **WARNING**: Heretical text - promotes dualism, rejects Old Testament
+- **Key**: Marcionism (144 AD), Luke-only, Paul-only
+
+## Query Format:
+When user asks about [topic], ToastedAI will:
+1. Identify relevant documents from query_system
+2. Apply Ma'at evaluation
+3. Provide truth-weighted answer
+
+## Example Queries:
+- "What does the Bible say about truth?" → CSB/KJV
+- "How do I optimize this algorithm?" → Algorithms Bible  
+- "What was the first Christian Bible?" → Very First Bible (with warning)
+- "Explain creation" → Biblical sources + Algorithms (structure)

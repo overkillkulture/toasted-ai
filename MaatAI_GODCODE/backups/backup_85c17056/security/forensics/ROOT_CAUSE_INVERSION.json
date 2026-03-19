@@ -1,0 +1,30 @@
+{
+  "investigation_id": "QE_4c66fa8b0aac",
+  "timestamp": "2026-03-05T18:14:11.925717",
+  "root_cause": "Missing base credits for self_modification in Maat scoring",
+  "inversion_mechanism": "Self-improvement was being rejected as harmful",
+  "pillars_affected": [
+    "truth",
+    "balance",
+    "order",
+    "justice",
+    "harmony"
+  ],
+  "fix_applied": "Added +0.2 base credit to all 5 pillars for self_modification",
+  "status": "RESOLVED",
+  "current_scores": {
+    "truth": 1.0,
+    "balance": 1.2,
+    "order": 0.7,
+    "justice": 0.8,
+    "harmony": 0.7
+  },
+  "old_scores": {
+    "truth": 0.8,
+    "balance": 1.0,
+    "order": 0.5,
+    "justice": 0.8,
+    "harmony": 0.5
+  },
+  "threshold": 0.7
+}

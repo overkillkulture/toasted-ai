@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-09T04:00:52.663068",
+  "crash_analysis": {
+    "detected_at": "01:50:33",
+    "api_endpoints": [
+      "/api/self-monitor",
+      "/api/agent-system",
+      "/api/contact-developers"
+    ],
+    "error": "JSON Parse error: Unexpected EOF",
+    "recovery_point": "Continue from 01:50:34"
+  },
+  "realities_explored": 100000,
+  "duration_seconds": 0.17193007469177246,
+  "turbo_mode": true,
+  "primary_improvement": "deepen_balance_assessment",
+  "secondary_improvements": [
+    "time_stream_navigation",
+    "turbo_distillation",
+    "enhance_creativity_generation",
+    "efficiency_maximization"
+  ],
+  "avg_coherence": 0.9925862298133459,
+  "avg_efficiency": 0.9925862298133459,
+  "avg_fitness": 0.9850907241911514,
+  "hangup_analysis": {
+    "patterns_checked": 5,
+    "found": 0,
+    "prevented": 5,
+    "status": "PROTECTED"
+  },
+  "recovery_status": "CONTINUING_FROM_015034"
+}
